@@ -1,0 +1,28 @@
+.bb-couple {
+    margin-bottom: 10px;
+    .label2 {
+        margin-left: 5px;
+    }
+    > span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .bb-field-couple {
+        max-width: 150px;
+        &[type="text"] {
+            padding: 5px 10px!important;
+            vertical-align: middle;
+        }
+    }
+    .bb-dropdown {
+        max-width: 150px;
+    }
+}
+.bb-couple-clone {
+    display: none;
+}
+.bb-couples.bb-no-minus {
+    .bb-minus-couple {
+        opacity: .5;
+    }
+}

@@ -1,0 +1,12 @@
+@import "elements/elements";
+@import "porto";
+.bb-footer-inside {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+#wp-admin-bar-bb-edit-footer a:before {
+    content: "\f464";
+    top: 2px;
+}

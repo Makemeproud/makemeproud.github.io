@@ -1,0 +1,342 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-05 14:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: wdc.php:23
+msgid "Please enter your domain."
+msgstr ""
+
+#: wdc.php:24
+msgid "Please verify that you are not a robot."
+msgstr ""
+
+#: wdc.php:194
+msgid "Congratulations! {domain} is available!"
+msgstr ""
+
+#: wdc.php:196
+msgid "Sorry! {domain} is already taken!"
+msgstr ""
+
+#: wdc.php:197
+msgid "Sorry, we currently do not handle that particular tld."
+msgstr ""
+
+#: wdc.php:247
+msgid "WHOIS"
+msgstr ""
+
+#: wdc.php:263
+msgid "/year"
+msgstr ""
+
+#: wdc.php:359
+msgid "Whois record for"
+msgstr ""
+
+#: wdc.php:398 wdc.php:1130
+msgid "Check"
+msgstr ""
+
+#: wdc.php:541
+msgid "Domain :"
+msgstr ""
+
+#: wdc.php:602
+msgid "WDC?"
+msgstr ""
+
+#: wdc.php:603
+msgid "Check me if you want to hide Add to Cart button on single product page."
+msgstr ""
+
+#: wdc.php:668
+msgid "Custom Available Result Text"
+msgstr ""
+
+#: wdc.php:671
+msgid ""
+"This is custom available result text. Use {domain} to replace domain name."
+msgstr ""
+
+#: wdc.php:675
+msgid "Custom Not Available Result Text"
+msgstr ""
+
+#: wdc.php:678
+msgid ""
+"This is custom not available result text. Use template tag {domain} to "
+"replace domain name."
+msgstr ""
+
+#: wdc.php:682
+msgid "Input Placeholder"
+msgstr ""
+
+#: wdc.php:685
+msgid "Placeholder for domain input."
+msgstr ""
+
+#: wdc.php:689
+msgid "Loading Image"
+msgstr ""
+
+#: wdc.php:692
+msgid "Upload your image"
+msgstr ""
+
+#: wdc.php:701
+msgid "Whois Page"
+msgstr ""
+
+#: wdc.php:705
+msgid ""
+"Enable or disable whois button if domain not available, make sure you put "
+"shortcode <strong>[wpdomainwhois]</strong> in whois page."
+msgstr ""
+
+#: wdc.php:710
+msgid "Whois Custom URL"
+msgstr ""
+
+#: wdc.php:713
+msgid "Use custom URL instead whois page"
+msgstr ""
+
+#: wdc.php:717 wdc.php:764
+msgid "Open in new tab ?"
+msgstr ""
+
+#: wdc.php:720
+msgid "Open the Whois Link in new tab."
+msgstr ""
+
+#: wdc.php:725
+msgid "Integration With"
+msgstr ""
+
+#: wdc.php:734
+msgid "Enable or disable integration."
+msgstr ""
+
+#: wdc.php:739
+msgid "Integration Button Link"
+msgstr ""
+
+#: wdc.php:742
+msgid ""
+"Integration button link. (e.g. for WHMCS: \"http://billing.host.com\"). <a "
+"href=\"http://asdqwe.net/wordpress-plugins/wp-domain-checker-docs/\" "
+"target=\"_blank\">Documentation</a><br>\n"
+"    \t\t\tFor custom link, you can use template tag {domain} to include "
+"domain in the link. <br>e.g: http://godaddy.com/?aff=12345&domain={domain}"
+msgstr ""
+
+#: wdc.php:747
+msgid "Enable AJAX add to cart buttons"
+msgstr ""
+
+#: wdc.php:750
+msgid ""
+"Enable AJAX add to cart buttons on WooCommerce integration. <br>Make sure "
+"you enable AJAX add to cart buttons in <strong>WooCommerce settings -> "
+"Product -> Display</strong>."
+msgstr ""
+
+#: wdc.php:755
+msgid "Button Text"
+msgstr ""
+
+#: wdc.php:758
+msgid "Integration Button Text. (e.g.: \"ORDER NOW\")"
+msgstr ""
+
+#: wdc.php:767
+msgid "Open the Integration Link in new tab."
+msgstr ""
+
+#: wdc.php:772
+msgid "Supported TLD Extensions"
+msgstr ""
+
+#: wdc.php:775
+msgid ""
+"Allow only specific extensions to check. separate by comma for each "
+"extension. (e.g: com,net,org,co.uk,co.id)<br>Leave it blank to allow all "
+"extensions."
+msgstr ""
+
+#: wdc.php:779
+msgid "Not Supported TLD Extensions Messages"
+msgstr ""
+
+#: wdc.php:782
+msgid ""
+"Not Supported TLD Extensions Messages. (e.g.: \"Sorry, we currently do not "
+"handle that particular tld.\")"
+msgstr ""
+
+#: wdc.php:786
+msgid "WooCommerce Custom Price"
+msgstr ""
+
+#: wdc.php:789
+msgid ""
+"Allow custom price for specific tld. (e.g: com|9,net|10,org|11,co.uk|12,co."
+"id|13)"
+msgstr ""
+
+#: wdc.php:793
+msgid "Multiple TLDs Check"
+msgstr ""
+
+#: wdc.php:796
+msgid ""
+"Multiple TLDs check if user not define tld on the domain. (e.g: com,net,org,"
+"info)"
+msgstr ""
+
+#: wdc.php:800
+msgid "Show Domain Price in Button?"
+msgstr ""
+
+#: wdc.php:804
+msgid "WooCommerce Integration Only."
+msgstr ""
+
+#: wdc.php:813
+msgid "reCaptcha Site Key"
+msgstr ""
+
+#: wdc.php:816
+msgid ""
+"Your reCaptcha Site Key. <a href=\"https://www.google."
+"com/recaptcha/intro/index.html\" target=\"_blank\"> Get reCaptcha Key</a>"
+msgstr ""
+
+#: wdc.php:820
+msgid "reCaptcha Secret Key"
+msgstr ""
+
+#: wdc.php:823
+msgid "Your reCaptcha Secret Key."
+msgstr ""
+
+#: wdc.php:831
+msgid "Check Button Color"
+msgstr ""
+
+#: wdc.php:839
+msgid "Check Button Text Color"
+msgstr ""
+
+#: wdc.php:847
+msgid "Order Button Color"
+msgstr ""
+
+#: wdc.php:855
+msgid "Order Button Text Color"
+msgstr ""
+
+#: wdc.php:863
+msgid "Whois Button Color"
+msgstr ""
+
+#: wdc.php:871
+msgid "Whois Button Text Color"
+msgstr ""
+
+#: wdc.php:879
+msgid "Available Result Background Color"
+msgstr ""
+
+#: wdc.php:887
+msgid "Available Result Border Color"
+msgstr ""
+
+#: wdc.php:895
+msgid "Available Result Text Color"
+msgstr ""
+
+#: wdc.php:903
+msgid "Not Available Background Color"
+msgstr ""
+
+#: wdc.php:911
+msgid "Not Available Border Color"
+msgstr ""
+
+#: wdc.php:919
+msgid "Not Available Result Text Color"
+msgstr ""
+
+#: wdc.php:927
+msgid "Search Box Border Color"
+msgstr ""
+
+#: wdc.php:935 wdc.php:939
+msgid "Custom CSS"
+msgstr ""
+
+#: wdc.php:942
+msgid "Put your custom CSS rules here"
+msgstr ""
+
+#: wdc.php:1066
+msgid "WP Domain Checker Widget"
+msgstr ""
+
+#: wdc.php:1076 wdc.php:1128
+msgid "Domain Availability Check"
+msgstr ""
+
+#: wdc.php:1084
+msgid "Title:"
+msgstr ""
+
+#: wdc.php:1089
+msgid "Width:"
+msgstr ""
+
+#: wdc.php:1094
+msgid "Button Name:"
+msgstr ""
+
+#: wdc.php:1099
+msgid "reCaptcha:"
+msgstr ""
+
+#: wdc.php:1107
+msgid "Size:"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Domain Checker"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Check domain name availability for all Top Level Domains using shortcode or "
+"widget with Ajax search."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://asdqwe.net/wordpress-plugins/wp-domain-checker/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Asdqwe Dev"
+msgstr ""

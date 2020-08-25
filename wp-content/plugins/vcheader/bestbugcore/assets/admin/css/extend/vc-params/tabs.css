@@ -1,0 +1,85 @@
+.trans, .bb-tab-target.bb-tab-target-active {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
+
+.vc_ui-panel-content.vc_properties-list {
+  margin-top: 0 !important; }
+
+.vc_ui-panel-window {
+  overflow: hidden; }
+
+.bb-tab-target {
+  padding-top: 0 !important;
+  position: absolute !important;
+  right: -100% !important;
+  height: 0 !important; }
+  .bb-tab-target.bb-tab-target-active {
+    position: relative !important;
+    right: 0 !important;
+    height: auto !important; }
+
+.bb-tabs-container.right {
+  position: absolute !important;
+  float: right;
+  top: 0;
+  right: 0;
+  color: #fff;
+  padding: 0 !important;
+  float: right;
+  max-width: 50px !important;
+  z-index: 999;
+  display: block !important;
+  margin-right: -3px;
+  margin-top: -23px; }
+  .bb-tabs-container.right a:hover,
+  .bb-tabs-container.right li.active a,
+  .bb-tabs-container.right a:focus,
+  .bb-tabs-container.right a:active {
+    background-color: #ebebeb;
+    outline: none;
+    box-shadow: none;
+    border-left-color: #305288; }
+.bb-tabs-container.top {
+  margin-top: -23px;
+  text-align: center; }
+  .bb-tabs-container.top ul {
+    display: inline-block; }
+    .bb-tabs-container.top ul li {
+      float: left; }
+      .bb-tabs-container.top ul li:first-child a {
+        border: 1px solid #ddd; }
+      .bb-tabs-container.top ul li a {
+        border-left: none; }
+    .bb-tabs-container.top ul a:hover,
+    .bb-tabs-container.top ul li.active a,
+    .bb-tabs-container.top ul a:focus,
+    .bb-tabs-container.top ul a:active {
+      background-color: #ebebeb;
+      outline: none;
+      box-shadow: none;
+      border-bottom-color: #305288; }
+.bb-tabs-container ul, .bb-tabs-container ul li {
+  margin: 0; }
+.bb-tabs-container ul li a {
+  color: #333;
+  border: 1px solid #ddd;
+  border-top: none;
+  text-align: center;
+  background-color: #F8F8F8;
+  line-height: 1;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  box-sizing: border-box;
+  text-decoration: none; }
+  .bb-tabs-container ul li a .img {
+    width: 100%;
+    overflow: hidden; }
+    .bb-tabs-container ul li a .img img {
+      max-width: 100%; }

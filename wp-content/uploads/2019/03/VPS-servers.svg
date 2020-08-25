@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-49 141 512 512" style="enable-background:new -49 141 512 512;" xml:space="preserve">
+	 <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+
+
+
+.vps_lock {
+    animation-name: vpsLock;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+	stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 450;
+    fill: none;
+    stroke-width: 7px;
+    stroke: #E9DB00;
+}
+
+@keyframes vpsLock {
+	0% {stroke-dashoffset: 500;}
+	50% {stroke-dashoffset: 0;}
+	100% {stroke-dashoffset: -450;}
+}
+
+
+	 </style>
+
+
+
+<style type="text/css">
+	.st0{fill:#E9DB00;}
+	.st1{fill:#076D4D;}
+</style>
+
+
+<g>
+	<path class="st0" d="M327,317H87c-4.42,0-8-3.58-8-8v-48c0-4.42,3.58-8,8-8h240c4.42,0,8,3.58,8,8v48
+		C335,313.42,331.42,317,327,317z"/>
+	<path class="st0" d="M79,357v48c0,4.42,3.58,8,8,8h29.58c13.19-37.26,48.64-64,90.42-64H87C82.58,349,79,352.58,79,357z"/>
+	<path class="st0" d="M327,349H207c41.78,0,77.23,26.74,90.42,64H327c4.42,0,8-3.58,8-8v-48C335,352.58,331.42,349,327,349z"/>
+	<path class="st0" d="M87,157h240c4.42,0,8,3.58,8,8v48c0,4.42-3.58,8-8,8H87c-4.42,0-8-3.58-8-8v-48C79,160.58,82.58,157,87,157z"
+		/>
+
+
+	<path class="st1" d="M311,565v16h128v24c0,13.23-10.77,24-24,24H-1c-13.23,0-24-10.77-24-24v-24h128v-16H-41v40
+		c0,22.06,17.94,40,40,40h416c22.06,0,40-17.94,40-40v-40H311z"/>
+	<path class="st1  vps_system" d="M119,589c0,13.23,10.77,24,24,24h128c13.23,0,24-10.77,24-24v-24H119V589z M135,581h144v8c0,4.42-3.59,8-8,8
+		H143c-4.41,0-8-3.58-8-8V581z"/>
+	<rect x="7" y="597" class="st1 vps_system" width="16" height="16"/>
+	<rect x="39" y="597" class="st1 vps_system" width="16" height="16"/>
+	<rect x="71" y="597" class="st1 vps_system" width="16" height="16"/>
+
+	<path class="st1" d="M423,269v280h16V269c0-22.06-17.94-40-40-40h-40v16h40C412.23,245,423,255.77,423,269z"/>
+	<path class="st1" d="M-9,269c0-13.23,10.77-24,24-24h40v-16H15c-22.06,0-40,17.94-40,40v280h16V269z"/>
+
+	<path class="st1" d="M391,549h16V277c0-8.82-7.18-16-16-16h-32v16h32V549z"/>
+	<path class="st1" d="M7,277v272h16V277h32v-16H23C14.18,261,7,268.18,7,277z"/>
+	<path class="st1" d="M87,421h8v-16h-8v-48h48v-16h-24v-16h192v16h-24v16h48v48h-8v16h8c8.82,0,16-7.18,16-16v-48
+		c0-8.82-7.18-16-16-16h-8v-16h8c8.82,0,16-7.18,16-16v-48c0-8.82-7.18-16-16-16h-8v-16h8c8.82,0,16-7.18,16-16v-48
+		c0-8.82-7.18-16-16-16H87c-8.82,0-16,7.18-16,16v48c0,8.82,7.18,16,16,16h8v16h-8c-8.82,0-16,7.18-16,16v48c0,8.82,7.18,16,16,16h8
+		v16h-8c-8.82,0-16,7.18-16,16v48C71,413.82,78.18,421,87,421z M86.99,165L86.99,165H327v48H87L86.99,165z M111,229h192v16H111V229z
+		 M87,261h240l0.01,48H87V261z"/>
+
+	<path class="st1" d="M207,341c-57.34,0-104,46.66-104,104s46.66,104,104,104s104-46.66,104-104S264.34,341,207,341z M207,533
+		c-48.52,0-88-39.48-88-88s39.48-88,88-88s88,39.48,88,88S255.52,533,207,533z"/>
+	<path class="vps_lock" d="M239,438.47V405c0-17.65-14.35-32-32-32s-32,14.35-32,32v33.47c-9.29,3.31-16,12.11-16,22.53v32
+		c0,13.23,10.77,24,24,24h48c13.23,0,24-10.77,24-24v-32C255,450.58,248.29,441.78,239,438.47z M207,389c8.82,0,16,7.18,16,16v32
+		h-32v-32C191,396.18,198.18,389,207,389z M239,493c0,4.42-3.59,8-8,8h-48c-4.41,0-8-3.58-8-8v-32c0-4.42,3.59-8,8-8h48
+		c4.41,0,8,3.58,8,8V493z"/>
+</g>
+</svg>

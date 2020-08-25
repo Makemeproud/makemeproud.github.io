@@ -1,0 +1,467 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: AKD Shortcodes\n"
+"POT-Creation-Date: 2018-12-19 11:40+0500\n"
+"PO-Revision-Date: 2018-12-19 11:35+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: akd-shortcodes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/shortcode.php:49
+msgid "Order Now"
+msgstr ""
+
+#: inc/vc_map.php:24 inc/vc_map.php:172 inc/vc_map.php:320
+msgid "Testimonial"
+msgstr ""
+
+#: inc/vc_map.php:42 inc/vc_map.php:107 inc/vc_map.php:190 inc/vc_map.php:255
+#: inc/vc_map.php:424
+msgid "Name"
+msgstr ""
+
+#: inc/vc_map.php:46 inc/vc_map.php:111 inc/vc_map.php:194 inc/vc_map.php:259
+#: inc/vc_map.php:428
+msgid "Jhone"
+msgstr ""
+
+#: inc/vc_map.php:48 inc/vc_map.php:113 inc/vc_map.php:196 inc/vc_map.php:261
+#: inc/vc_map.php:430
+msgid "Enter Name"
+msgstr ""
+
+#: inc/vc_map.php:56 inc/vc_map.php:121 inc/vc_map.php:204 inc/vc_map.php:269
+#: inc/vc_map.php:438
+msgid "URL"
+msgstr ""
+
+#: inc/vc_map.php:60 inc/vc_map.php:125 inc/vc_map.php:208 inc/vc_map.php:273
+#: inc/vc_map.php:442
+msgid "abc.com"
+msgstr ""
+
+#: inc/vc_map.php:62 inc/vc_map.php:127 inc/vc_map.php:210 inc/vc_map.php:275
+#: inc/vc_map.php:444
+msgid "Enter URL"
+msgstr ""
+
+#: inc/vc_map.php:70 inc/vc_map.php:135 inc/vc_map.php:218 inc/vc_map.php:283
+#: inc/vc_map.php:452
+msgid "Testimonial Content"
+msgstr ""
+
+#: inc/vc_map.php:74 inc/vc_map.php:139 inc/vc_map.php:222 inc/vc_map.php:287
+#: inc/vc_map.php:456
+msgid "ABC"
+msgstr ""
+
+#: inc/vc_map.php:76 inc/vc_map.php:141 inc/vc_map.php:224 inc/vc_map.php:289
+#: inc/vc_map.php:458
+msgid "Enter Testimonial Content"
+msgstr ""
+
+#: inc/vc_map.php:91 inc/vc_map.php:239 inc/vc_map.php:390
+msgid "Testimonial Child"
+msgstr ""
+
+#: inc/vc_map.php:337 inc/vc_map.php:347
+msgid "Testimonial ICon Image"
+msgstr ""
+
+#: inc/vc_map.php:356
+msgid "Custom Class"
+msgstr ""
+
+#: inc/vc_map.php:362
+msgid "Enter Custom Class"
+msgstr ""
+
+#: inc/vc_map.php:369
+msgid "Custom ID"
+msgstr ""
+
+#: inc/vc_map.php:375
+msgid "Enter Custom ID"
+msgstr ""
+
+#: inc/vc_map.php:405 inc/vc_map.php:415
+msgid "Client Image"
+msgstr ""
+
+#: inc/vc_map.php:487
+msgid "Domain Search"
+msgstr ""
+
+#: inc/vc_map.php:493
+msgid "Hosting Element"
+msgstr ""
+
+#: inc/vc_map.php:495
+msgid "Domain Search."
+msgstr ""
+
+#: inc/vc_map.php:507
+msgid "Form Action Link"
+msgstr ""
+
+#: inc/vc_map.php:511
+msgid "Link"
+msgstr ""
+
+#: inc/vc_map.php:513
+msgid "Required Action form Link."
+msgstr ""
+
+#: inc/vc_map.php:520
+msgid "Place Holder"
+msgstr ""
+
+#: inc/vc_map.php:524
+msgid "place_holder"
+msgstr ""
+
+#: inc/vc_map.php:526
+msgid "place_holder."
+msgstr ""
+
+#: inc/vc_map.php:533 inc/vc_map.php:539
+msgid "Button Text"
+msgstr ""
+
+#: inc/vc_map.php:537
+msgid "Search"
+msgstr ""
+
+#: inc/vc_map.php:550
+msgid "Plan Pricing Tables"
+msgstr ""
+
+#: inc/vc_map.php:568
+msgid "Table Title"
+msgstr ""
+
+#: inc/vc_map.php:572
+msgid "Pricing Table"
+msgstr ""
+
+#: inc/vc_map.php:574 inc/vc_map.php:588 inc/vc_map.php:602 inc/vc_map.php:616
+#: inc/vc_map.php:630 inc/vc_map.php:644 inc/vc_map.php:658 inc/vc_map.php:723
+#: inc/vc_map.php:737 inc/vc_map.php:751 inc/vc_map.php:765 inc/vc_map.php:779
+#: inc/vc_map.php:838 inc/vc_map.php:852 inc/vc_map.php:866 inc/vc_map.php:880
+#: inc/vc_map.php:894 inc/vc_map.php:908 inc/vc_map.php:945 inc/vc_map.php:959
+#: inc/vc_map.php:973 inc/vc_map.php:987 inc/vc_map.php:1001
+#: inc/vc_map.php:1092 inc/vc_map.php:1125 inc/vc_map.php:1158
+#: inc/vc_map.php:1191 inc/vc_map.php:1331 inc/vc_map.php:1345
+#: inc/vc_map.php:1359 inc/vc_map.php:1373
+msgid "Enter Value"
+msgstr ""
+
+#: inc/vc_map.php:582
+msgid "Price Title"
+msgstr ""
+
+#: inc/vc_map.php:586
+msgid "Pricing Title"
+msgstr ""
+
+#: inc/vc_map.php:596 inc/vc_map.php:1086
+msgid "Option 1 Title"
+msgstr ""
+
+#: inc/vc_map.php:600 inc/vc_map.php:721 inc/vc_map.php:1090
+#: inc/vc_map.php:1329
+msgid "Option 1"
+msgstr ""
+
+#: inc/vc_map.php:610 inc/vc_map.php:1119
+msgid "Option 2 Title"
+msgstr ""
+
+#: inc/vc_map.php:614 inc/vc_map.php:735 inc/vc_map.php:1123
+#: inc/vc_map.php:1343
+msgid "Option 2"
+msgstr ""
+
+#: inc/vc_map.php:624 inc/vc_map.php:1152
+msgid "Option 3 Title"
+msgstr ""
+
+#: inc/vc_map.php:628 inc/vc_map.php:749 inc/vc_map.php:1156
+#: inc/vc_map.php:1357
+msgid "Option 3"
+msgstr ""
+
+#: inc/vc_map.php:638 inc/vc_map.php:1185
+msgid "Option 4 Title"
+msgstr ""
+
+#: inc/vc_map.php:642 inc/vc_map.php:763 inc/vc_map.php:1189
+#: inc/vc_map.php:1371
+msgid "Option 4"
+msgstr ""
+
+#: inc/vc_map.php:652
+msgid "Option 5 Title"
+msgstr ""
+
+#: inc/vc_map.php:656 inc/vc_map.php:777
+msgid "Option 5"
+msgstr ""
+
+#: inc/vc_map.php:673
+msgid "Plan Values"
+msgstr ""
+
+#: inc/vc_map.php:689 inc/vc_map.php:1283
+msgid "Plan Price"
+msgstr ""
+
+#: inc/vc_map.php:693 inc/vc_map.php:1287
+msgid "$89.00"
+msgstr ""
+
+#: inc/vc_map.php:695 inc/vc_map.php:1289
+msgid "Enter Plan Price"
+msgstr ""
+
+#: inc/vc_map.php:703 inc/vc_map.php:1311
+msgid "Plan Order Link"
+msgstr ""
+
+#: inc/vc_map.php:707 inc/vc_map.php:1315
+msgid "#"
+msgstr ""
+
+#: inc/vc_map.php:709 inc/vc_map.php:1317
+msgid "Enter Plan Order Link"
+msgstr ""
+
+#: inc/vc_map.php:717 inc/vc_map.php:1325
+msgid "Option 1 value"
+msgstr ""
+
+#: inc/vc_map.php:731 inc/vc_map.php:1339
+msgid "Option 2 value"
+msgstr ""
+
+#: inc/vc_map.php:745 inc/vc_map.php:1353
+msgid "Option 3 value"
+msgstr ""
+
+#: inc/vc_map.php:759 inc/vc_map.php:1367
+msgid "Option 4 value"
+msgstr ""
+
+#: inc/vc_map.php:773
+msgid "Option 5 value"
+msgstr ""
+
+#: inc/vc_map.php:814
+msgid "Domain TLD's Listing"
+msgstr ""
+
+#: inc/vc_map.php:832
+msgid "TLD's Listing Title"
+msgstr ""
+
+#: inc/vc_map.php:836
+msgid "New Domain Available"
+msgstr ""
+
+#: inc/vc_map.php:846
+msgid "Table column 1 Title"
+msgstr ""
+
+#: inc/vc_map.php:850 inc/vc_map.php:943
+msgid "Table column 1"
+msgstr ""
+
+#: inc/vc_map.php:860
+msgid "Table column 2 Title"
+msgstr ""
+
+#: inc/vc_map.php:864 inc/vc_map.php:957
+msgid "Table column 2"
+msgstr ""
+
+#: inc/vc_map.php:874
+msgid "Table column 3 Title"
+msgstr ""
+
+#: inc/vc_map.php:878 inc/vc_map.php:971
+msgid "Table column 3"
+msgstr ""
+
+#: inc/vc_map.php:888
+msgid "Table column 4 Title"
+msgstr ""
+
+#: inc/vc_map.php:892 inc/vc_map.php:985
+msgid "Table column 4"
+msgstr ""
+
+#: inc/vc_map.php:902
+msgid "Table column 5 Title"
+msgstr ""
+
+#: inc/vc_map.php:906 inc/vc_map.php:999
+msgid "Table column 5"
+msgstr ""
+
+#: inc/vc_map.php:922
+msgid "TLD Value"
+msgstr ""
+
+#: inc/vc_map.php:939
+msgid "Table column 1 value"
+msgstr ""
+
+#: inc/vc_map.php:953
+msgid "Table column 2 value"
+msgstr ""
+
+#: inc/vc_map.php:967
+msgid "Table column 3 value"
+msgstr ""
+
+#: inc/vc_map.php:981
+msgid "Table column 4 value"
+msgstr ""
+
+#: inc/vc_map.php:995
+msgid "Table column 5 value"
+msgstr ""
+
+#: inc/vc_map.php:1038
+msgid "Plan Slider"
+msgstr ""
+
+#: inc/vc_map.php:1056
+msgid "VPS Slider Title"
+msgstr ""
+
+#: inc/vc_map.php:1060
+msgid "Pricing Slider"
+msgstr ""
+
+#: inc/vc_map.php:1062
+msgid "Enter VPS Slider Title"
+msgstr ""
+
+#: inc/vc_map.php:1069
+msgid "Slider Type"
+msgstr ""
+
+#: inc/vc_map.php:1074
+msgid "Horizontal"
+msgstr ""
+
+#: inc/vc_map.php:1075
+msgid "Vertical"
+msgstr ""
+
+#: inc/vc_map.php:1078
+msgid "Select Slider Type"
+msgstr ""
+
+#: inc/vc_map.php:1100 inc/vc_map.php:1110
+msgid "Option 1 Icon"
+msgstr ""
+
+#: inc/vc_map.php:1133 inc/vc_map.php:1143
+msgid "Option 2 Icon"
+msgstr ""
+
+#: inc/vc_map.php:1166 inc/vc_map.php:1176
+msgid "Option 3 Icon"
+msgstr ""
+
+#: inc/vc_map.php:1199 inc/vc_map.php:1209
+msgid "Option 4 Icon"
+msgstr ""
+
+#: inc/vc_map.php:1218
+msgid "Promo Code"
+msgstr ""
+
+#: inc/vc_map.php:1222
+msgid "LVPS30"
+msgstr ""
+
+#: inc/vc_map.php:1224
+msgid "Enter Promo Code"
+msgstr ""
+
+#: inc/vc_map.php:1232
+msgid "Promo Code Value"
+msgstr ""
+
+#: inc/vc_map.php:1236
+msgid "30% OFF"
+msgstr ""
+
+#: inc/vc_map.php:1238
+msgid "Enter Promo Code Value"
+msgstr ""
+
+#: inc/vc_map.php:1253
+msgid "Slide Values"
+msgstr ""
+
+#: inc/vc_map.php:1269
+msgid "Plan Name"
+msgstr ""
+
+#: inc/vc_map.php:1273
+msgid "Plan 1"
+msgstr ""
+
+#: inc/vc_map.php:1275
+msgid "Enter Plan Name"
+msgstr ""
+
+#: inc/vc_map.php:1297
+msgid "Discount Price"
+msgstr ""
+
+#: inc/vc_map.php:1301
+msgid "$69.00"
+msgstr ""
+
+#: inc/vc_map.php:1303
+msgid "Enter Discount Price"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "AKD Shortcodes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://designingmedia.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A simple plugin to add custom codes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "AKD"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://designingmedia.com"
+msgstr ""

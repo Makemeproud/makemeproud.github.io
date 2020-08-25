@@ -1,0 +1,63 @@
+//Shortcodes icon
+.bbhd_icon {
+    &_social {
+        background: url(../images/shortcodes/social.png) !important;
+        background-size: cover !important;
+    }
+    &_plus {
+        background: url(../images/shortcodes/plus.png) !important;
+        background-size: cover !important;
+    }
+    &_menu {
+        background: url(../images/shortcodes/menu.png) !important;
+        background-size: cover !important;
+    }
+    &_logo {
+        background: url(../images/shortcodes/logo.png) !important;
+        background-size: cover !important;
+    }
+    &_search {
+        background: url(../images/shortcodes/search.png) !important;
+        background-size: cover !important;
+    }
+    &_cart {
+        background: url(../images/shortcodes/cart.png) !important;
+        background-size: cover !important;
+    }
+}
+
+.wpb_bbhd_flexbox_container {
+    > .wpb_element_wrapper > .wpb_column_container {
+        display: flex;
+        > .wpb_bbhd_flexbox {
+            flex-grow: 1;
+            margin-top: 4px;
+            > .wpb_element_wrapper {
+                > .wpb_element_title {
+                    display: none;
+                }
+                > .wpb_column_container {
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}
+.wpsg_raiting{
+    display: inline-block;
+    .wpsg_content_star{
+        display: inline-block;
+        a{
+            text-decoration: none;
+            cursor: pointer;
+            color: rgb(255, 218, 11);
+            padding: 1px;
+            display: inline-block;
+            font-size: 16px;
+            &:hover ~ a{
+                color: rgb(102, 102, 102);
+            }
+        }
+
+    }
+}

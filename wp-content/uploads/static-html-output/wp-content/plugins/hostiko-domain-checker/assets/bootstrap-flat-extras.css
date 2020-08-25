@@ -1,0 +1,136 @@
+#wdc-style .btn-striped {
+  color: #333333;
+  background-color: #ffffff;
+  border-left-width: 3px;
+  border-right: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+#wdc-style .btn-striped:hover,
+#wdc-style .btn-striped:focus,
+#wdc-style .btn-striped:active,
+#wdc-style .btn-striped.active {
+  color: #333333;
+  background-color: #ebebeb;
+  border-right: 1px solid #adadad;
+  border-top: 1px solid #adadad;
+  border-bottom: 1px solid #adadad;
+}
+#wdc-style .btn-striped.disabled,
+#wdc-style .btn-striped[disabled],
+#wdc-style fieldset[disabled] .btn-striped,
+#wdc-style .btn-striped.disabled:hover,
+#wdc-style .btn-striped[disabled]:hover,
+#wdc-style fieldset[disabled] .btn-striped:hover,
+#wdc-style .btn-striped.disabled:focus,
+#wdc-style .btn-striped[disabled]:focus,
+#wdc-style fieldset[disabled] .btn-striped:focus,
+#wdc-style .btn-striped.disabled:active,
+#wdc-style .btn-striped[disabled]:active,
+#wdc-style fieldset[disabled] .btn-striped:active,
+#wdc-style .btn-striped.disabled.active,
+#wdc-style .btn-striped[disabled].active,
+#wdc-style fieldset[disabled] .btn-striped.active {
+  background-color: #ffffff;
+  border-right: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+#wdc-style .btn-striped-right {
+  color: #333333;
+  background-color: #ffffff;
+  border-right-width: 3px;
+  border-left: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+#wdc-style .btn-striped-right:hover,
+#wdc-style .btn-striped-right:focus,
+#wdc-style .btn-striped-right:active,
+#wdc-style .btn-striped-right.active {
+  color: #333333;
+  background-color: #ebebeb;
+  border-left: 1px solid #adadad;
+  border-top: 1px solid #adadad;
+  border-bottom: 1px solid #adadad;
+}
+#wdc-style .btn-striped-right.disabled,
+#wdc-style .btn-striped-right[disabled],
+#wdc-style fieldset[disabled] .btn-striped-right,
+#wdc-style .btn-striped-right.disabled:hover,
+#wdc-style .btn-striped-right[disabled]:hover,
+#wdc-style fieldset[disabled] .btn-striped-right:hover,
+#wdc-style .btn-striped-right.disabled:focus,
+#wdc-style .btn-striped-right[disabled]:focus,
+#wdc-style fieldset[disabled] .btn-striped-right:focus,
+#wdc-style .btn-striped-right.disabled:active,
+#wdc-style .btn-striped-right[disabled]:active,
+#wdc-style fieldset[disabled] .btn-striped-right:active,
+#wdc-style .btn-striped-right.disabled.active,
+#wdc-style .btn-striped-right[disabled].active,
+#wdc-style fieldset[disabled] .btn-striped-right.active {
+  background-color: #ffffff;
+  border-left: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+#wdc-style .callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border: none;
+  border-left: 4px solid transparent;
+}
+#wdc-style .callout h4 {
+  margin-top: 0;
+  color: inherit;
+}
+#wdc-style .callout .callout-link {
+  font-weight: bold;
+}
+#wdc-style .callout > p,
+#wdc-style .callout > ul {
+  margin-bottom: 0;
+}
+#wdc-style .callout > p + p {
+  margin-top: 5px;
+}
+#wdc-style .callout-success {
+  background-color: #e7fadf;
+  border-color: #b9ceab;
+}
+#wdc-style .callout-success hr {
+  border-top-color: #c9e2b3;
+}
+#wdc-style .callout-success .callout-link {
+  color: #356635;
+}
+#wdc-style .callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
+}
+#wdc-style .callout-info hr {
+  border-top-color: #a6e1ec;
+}
+#wdc-style .callout-info .callout-link {
+  color: #2d6987;
+}
+#wdc-style .callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+#wdc-style .callout-warning hr {
+  border-top-color: #f8e5be;
+}
+#wdc-style .callout-warning .callout-link {
+  color: #a47e3c;
+}
+#wdc-style .callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+#wdc-style .callout-danger hr {
+  border-top-color: #e6c1c7;
+}
+#wdc-style .callout-danger .callout-link {
+  color: #953b39;
+}

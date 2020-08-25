@@ -1,0 +1,30 @@
+.bbhd-btn {
+    transition: 0.1s linear;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    border-radius: 6px;
+    padding: 5px 25px;
+    border: 1px solid #252525;
+    border-width: 1px;
+    line-height: 1;
+    box-sizing: border-box;
+    display: inline-block;
+    
+    
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    
+    height: 37px;
+    font-size: 14px;
+    &:last-child {
+        margin-right: 0;
+    }
+    &.type--uppercase {
+    }
+    &.btn--sm {
+        padding-top: 0.30952381em;
+        padding-bottom: 0.30952381em;
+        padding-right: 1.85714286em;
+        padding-left: 1.85714286em;
+    }
+}

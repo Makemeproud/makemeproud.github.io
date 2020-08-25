@@ -1,0 +1,172 @@
+.bb-wrap .wp-picker-container {
+    padding-top: 5px;
+    position: relative;
+    display: inline-block;
+
+    &:before {
+    	content: '';
+    	display: block;
+    	clear: both;
+    }
+
+    /* COLOR PICKER STYLING */
+    .wp-picker-container {
+    	position: relative;
+    	z-index: 900;
+    	vertical-align: top;
+    	margin-top: 1px;
+    }
+
+    .button.wp-color-result {
+        margin: 0 !important;
+        display: inline-block;
+        width: 74px;
+		height: 26px;
+		min-height: 26px;
+        border: 1px solid #ddd;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        outline: none;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    	
+    	.wp-color-result-text {
+    		display: none;
+    	}
+    }
+
+    .wp-color-result:after {
+    	content: "Color";
+    	line-height: 24px;
+    	background: #eee;
+    	border-left: 1px solid #ddd !important;
+    	height: 24px;
+    	top: -1px;
+    	right: -1px;
+    	border-radius: 0 5px 5px 0;
+    	-moz-border-radius: 0 5px 5px 0;
+    	-webkit-border-radius: 0 4px 4px 0;
+    	box-shadow: none;
+    	-webkit-box-shadow: none;
+    	-moz-box-shadow: none;
+    	outline: none;
+    	box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+    	display: block;
+    }
+
+    .wp-color-result.wp-picker-open:after {
+    	content: "Set";
+    }
+
+    &.wp-picker-active {
+    	.wp-picker-input-wrap {
+    		display: block;
+    	}
+    }
+
+    .wp-picker-input-wrap {
+    	position: absolute;
+    	top: 250px;
+    	left: -80px;
+    	z-index: 99;
+    	width: 245px;
+    	background: #eee;
+    	height: 30px;
+    	padding: 5px;
+    	display: none;
+    	body & .wp-picker-clear {
+            margin: 0!important;
+            height: 24px!important;
+            line-height: 24px!important;
+    		padding: 0 8px 0px!important;
+    		font-size: 11px!important;
+    		border: none;
+    		box-shadow: none;
+    		-moz-box-shadow: none;
+    		-webkit-box-shadow: none;
+    		border-radius: 0px;
+    		-moz-border-radius: 0px;
+    		-webkit-border-radius: 0px;
+    		background: #3498DB;
+    		color: #FFF;
+    	}
+    	input[type=text] {
+    		height: 24px!important;
+    		line-height: 22px!important;
+    		width: 180px!important;
+    		margin-right: 12px;
+    		margin-left: 5px;
+    		background: #e5e5e5;
+    	    color: #777;
+    	    font-size: 13px;
+    	    padding: 0 7px;
+    	    border-radius: 0px;
+    	    max-height: 26px;
+    	    line-height: 26px;
+    	    font-weight: 600;
+    	    vertical-align: middle;
+    	    border: none!important;
+    	    box-shadow: none!important;
+    	    -webkit-box-shadow: none!important;
+    		&:hover, &:focus {
+    			background-color: #ccc;
+    		}
+    	}
+    }
+
+    .pickerisopen .wp-picker-input-wrap {
+    	display: block;
+    	text-align: right;
+    }
+
+    .pickerisopen .my-color-field {
+    	margin-right: 7px;
+    	width: 185px;
+    }
+
+    .pickerisopen .wp-picker-clear {
+        margin: 0!important;
+        height: 24px!important;
+        line-height: 24px!important;
+    	padding: 0 8px 1px!important;
+    	font-size: 11px!important;
+    	border: none!important;
+    	box-shadow: none;
+    	-moz-box-shadow: none;
+    	-webkit-box-shadow: none;
+    	border-radius: 0;
+    	-moz-border-radius: 0;
+    	-webkit-border-radius: 0;
+    	background: #3498DB;
+    	color: #FFF;
+    }
+
+    .wp-picker-holder {
+    	position: absolute;
+    	top: 30px;
+    	left: -80px;
+    	z-index: 10;
+    }
+
+    .iris-picker {
+    	background: #eee !important;
+    	border: none !important;
+    	margin: 0;
+    }
+
+    #form_slider_params_wrap .wp-picker-holder,
+    #form_slider_params_wrap .wp-picker-input-wrap {
+    	left: auto;
+    	right: 0;
+    }
+}
+.wp-picker-open+.wp-picker-input-wrap{
+    display: block !important;
+}

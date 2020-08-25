@@ -1,0 +1,43 @@
+.validation_activate_buttons{box-shadow: none !important;cursor: pointer;border: none !important;text-decoration: none !important;border-radius: 4px;color: #fff;line-height: 40px;padding: 0px 30px;display: inline-block;font-weight: 600;font-size: 14px;outline: none !important;}
+.validation_activate_buttons:focus{color: #fff;}
+#validation_activate{ background: #3498db;margin-right: 5px;}
+#validation_deactivate{ background: #e83737;}
+#validation_activate:hover{background: #2c8ac8;color: #fff;}
+#validation_deactivate:hover{background: #d23333;color: #fff;}
+#purchase_code_verification{background: #e5e5e5;color: #777;font-size: 13px;padding: 0 7px;border-radius: 5px;line-height: 30px;font-weight: 600;margin-bottom: 10px;}
+#purchase_code_verification:focus{background: #ccc;}
+#popup_license_button {display: none;}
+#floris_opt-top_footer_columns .redux-image-select img { max-width: 100%; }
+.register-theme-form { width: 33%; margin: 0 auto; }
+.redux-tlm-class .form-table>tbody>tr>th { width: auto !important; }
+
+.hostiko-license{padding:12px 20px;background-color:#fef1ce;margin-bottom:40px!important;height:45px;box-sizing:border-box;}
+.hostiko-license a{color:#282224;font-weight:500}
+.hostiko-license i{margin-right:10px}
+.redux-critical{background-color:#f6d6db;}
+.redux-critical i{margin-right:6px;}
+.redux-notice-field.redux-critical{border-left-color:#f6d6db}
+.p_code_section{float:left;width:100%;padding:30px;background-color:#f5f5f5;box-sizing:border-box;}
+.find-pcode{margin:0!important;padding:10px 20px;background-color:#fff;margin-bottom:15px!important;}
+#tlm-faq{margin-bottom:20px;}
+.enter-pcode{padding:15px;background-color:#fff;}
+.find-pcode i{margin-right:10px;font-size:20px;}
+.enter-pcode i{margin-right:15px;font-size:20px;}
+.redux-notice-field p i{font-size:20px;}
+.p_code_section .enter-pcode .regular-text{height:40px;margin-bottom:0!important;margin-right:30px}
+.more_info{padding:15px 20px;background-color:#d3ecf1;border-radius:6px;}
+.more_info a{color:#221f26;font-weight:700;}
+.more_info i{font-size:20px;margin-right:6px;}
+.redux-field-info,.redux-success{padding:0 20px;background-color:#d5ecda;border-left:#d5ecda!important;border-radius:6px;}
+.redux-field-info p,.redux-success p{margin:10px 0}
+.redux-main .form-table tr{border-bottom:none}
+.revoke-license {color:red}
+
+@media screen and (max-width:1199px){
+    .hostiko-license{height:auto;}
+    .p_code_section .enter-pcode .regular-text{margin-right:5px;margin-bottom:10px!important;}
+    .validation_activate_buttons{padding:0 10px}
+}
+@media screen and (max-width:767px){
+    .redux-field-info, .redux-success{height:auto}
+}

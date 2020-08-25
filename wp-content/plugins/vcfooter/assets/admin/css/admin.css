@@ -1,0 +1,48 @@
+.icon-bbfb_menus {
+  background: url(../images/shortcodes/menu.png) !important;
+  background-size: cover !important; }
+
+.icon-bbfb_social {
+  background: url(../images/shortcodes/social.png) !important;
+  background-size: cover !important; }
+
+.icon-bbfb_instagram {
+  background: url(../images/shortcodes/instagram.png) !important;
+  background-size: cover !important; }
+
+.icon-bbfb_search {
+  background: url(../images/shortcodes/search.png) !important;
+  background-size: cover !important; }
+.icon-bbfb_cart {
+  background: url(../images/shortcodes/cart.png) !important;
+  background-size: cover !important;
+}
+.icon-bbfb_contact {
+  background: url(../images/shortcodes/contact.png) !important;
+  background-size: cover !important;
+}
+.icon-bbfb_logo {
+  background: url(../images/shortcodes/logo.png) !important;
+  background-size: cover !important;
+}
+.bbfb-bg-grey {
+  background-color: #f9f9f9; }
+
+.bb-filter-input {
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 3px; }
+
+.wpsg_raiting {
+  display: inline-block; }
+  .wpsg_raiting .wpsg_content_star {
+    display: inline-block; }
+    .wpsg_raiting .wpsg_content_star a {
+      text-decoration: none;
+      cursor: pointer;
+      color: #ffda0b;
+      padding: 1px;
+      display: inline-block;
+      font-size: 16px; }
+      .wpsg_raiting .wpsg_content_star a:hover ~ a {
+        color: #666666; }

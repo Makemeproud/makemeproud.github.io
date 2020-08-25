@@ -1,0 +1,306 @@
+/* Admin components */
+@import "colorpicker";
+@import "upload";
+@import "couple";
+@import "multi-select";
+
+.bb-wrap  {
+	outline: 1px none;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+
+	.bb-row {
+		margin: 1em 0!important;
+	}
+
+	.bb-headtitle {
+		padding: 0px 20px 0px 55px!important;
+	    background: #fff!important;
+	    min-height: 55px!important;
+	    line-height: 55px!important;
+	    white-space: nowrap!important;
+		font-size: 17px!important;
+		font-weight: 600!important;
+		margin: 1em 0!important;
+		position: relative;
+		z-index: 9999;
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			height: 55px;
+			width: 55px;
+			background: url('../images/logo.png') center center no-repeat;
+			background-size: 60%;
+		}
+	}
+	
+	margin-bottom: 30px;
+    
+	.dataTables_wrapper {
+		label, .dataTables_info, .dataTables_paginate {
+        	font-weight: bold;
+	    }
+		
+		thead {
+			tr {
+				th {
+				    border-bottom: 1px solid #e1e1e1;
+				}
+			}
+		}
+		.wp-list-table {
+			border: 1px solid #e5e5e5;
+		}
+	}
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+        color: #333 !important;
+        border: 1px solid #e3e3e3;
+        background: #e3e3e3;
+    }
+    .dataTables_length {
+        select {
+            margin: 0 5px;
+            padding: 8px 10px;
+            border-radius: 3px;
+            background:transparent;
+            -webkit-transition: border-color 0.7s linear;
+            -moz-transition: border-color 0.7s linear;
+            -ms-transition: border-color 0.7s linear;
+            -o-transition: border-color 0.7s linear;
+            transition: border-color 0.7s linear;
+            -webkit-appearance: menulist;
+            display: inline-block;
+            height: 35px;
+			border: 1px solid #ccc;
+			background-color: #fff;
+            &:focus {
+                border-color: #aaa;
+            }
+        }
+    }
+    .dataTables_filter {
+        input {
+            padding: 8px 15px;
+			width: 280px;
+			font-weight: 400;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+			background-color: #fff;
+            -webkit-transition: border-color 0.7s linear;
+            -moz-transition: border-color 0.7s linear;
+            -ms-transition: border-color 0.7s linear;
+            -o-transition: border-color 0.7s linear;
+            transition: border-color 0.7s linear;
+            &:focus {
+                border-color: #aaa;
+            }
+        }
+    }
+    .dataTables_filter, .dataTables_length {
+        padding: 15px 0;
+    }
+
+    
+	.wp-list-table {
+		margin: 1em 0!important;
+		max-width: 100%;
+		overflow: auto;
+		
+		tbody {
+			tr {
+				&:nth-child(odd) {
+				    background-color: #f9f9f9;
+				}
+				td {
+					&:first-child {
+						padding-left: 20px;
+					}
+				}
+			}
+		}
+
+		tr {
+			height: 50px;
+    		line-height: 23px;
+		}
+
+		th {
+			color: #32373c;
+		}
+
+		td {
+			vertical-align: middle;
+			clear: none!important;
+			display: table-cell!important;
+			.img-icon {
+				max-width: 20px;
+			}
+			form {
+				display: inline-block;
+			}
+		}
+	}
+
+	.button:not(.wp-color-result) {
+		background: #999;
+		border-radius: 0 !important;
+		border: none !important;
+		text-shadow: none !important;
+		border: none !important;
+		outline: none !important;
+		box-shadow: none !important;
+		line-height: 26px !important;
+		height: 27px !important;
+		margin: 2px 3px 2px 0px!important;
+		color: #fff !important;
+		padding: 0 10px 1px!important;
+
+		i, span {
+			font-size: inherit;
+			line-height: 27px!important;
+		}
+
+		&.success {
+			background: #27ae60;
+			&:hover, &:active, &:focus {
+				background: #2ecc71;
+			}
+		}
+		&.primary {
+			background: #3498db;
+			&:hover, &:active, &:focus {
+				background: #2c3e50;
+			}
+		}
+		&.danger {
+			background: #e74c3c;
+			&:hover, &:active, &:focus {
+				background: #c0392b;
+			}
+		}
+		&.warning {
+			background: #f1c40f;
+			&:hover, &:active, &:focus {
+				background: #f39c12;
+			}
+		}
+	}
+
+	.bb-form {
+		padding: 20px 30px !important;
+		margin: 1em 0!important;
+
+    	background: #fff;
+
+		.bb-field-row {
+			margin-bottom: 20px;
+		    border-bottom: 1px dashed #ddd;
+		    padding-bottom: 20px;
+		    display: flex;
+		    width: 100%;
+		    align-items: center;
+
+			&:last-child {
+				padding-bottom: 0px;
+			    border-bottom: none;
+			    margin-bottom: 0px;
+			}
+			
+			&[data-dependency="true"] {
+				display: none;
+			}
+
+			& > div {
+				
+			}
+			.bb-label {
+				width: 200px;
+				label {
+					min-width: 200px;
+					font-weight: 600;
+					font-size: 14px;
+					display: inline-block;
+					line-height: 30px;
+				}
+			}
+			.bb-field {
+				flex-grow: 1;
+			    padding-right: 50px;
+			    max-width: 400px;
+				input[type=text] {
+					width: 100%;
+					padding: 7px 10px;
+					border-radius: 3px;
+					border: 1px solid #ddd;
+				}
+				&.bb-checkboxes {
+					label {
+						display: block;
+						margin-bottom: 5px;
+					}
+				}
+				textarea {
+					width: 100%;
+					padding: 7px 10px;
+					border-radius: 3px;
+				}
+				.CodeMirror {
+					border: 1px solid #ddd;
+					box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+				    border-radius: 3px;
+				}
+				.bb-dropdown {
+					width: 100%;
+				}
+			}
+			.bb-desc {
+				display: block;
+				font-size: 11px;
+				line-height: 14px;
+				color: #aaa;
+				font-style: italic;
+			}
+		}
+	}
+
+	.text-center {
+		text-align: center;
+	}
+
+	.bb-txt-priority {
+		width: 50px;
+		text-align: center;
+		&::-webkit-inner-spin-button,
+		&::-webkit-outer-spin-button {
+		   opacity: 1;
+		}
+	}
+
+	.bb_edo_icon_depend {
+		display: none;
+	}
+
+	#bb_custom_image_icon {
+		display: block;
+		width: 100px;
+		img {
+			max-width: 100%;
+		}
+	}
+
+	.bb_deleteform {
+		display: inline-block;
+	}
+}
+.bbhd_content_page_bbhd_settings{
+	.bb-wrap.bb-settings{
+		.button.success {
+			height: 40px !important;
+		}
+	}
+}

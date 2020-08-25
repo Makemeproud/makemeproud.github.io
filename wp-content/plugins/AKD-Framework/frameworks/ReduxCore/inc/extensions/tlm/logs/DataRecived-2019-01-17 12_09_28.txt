@@ -1,0 +1,13 @@
+Array
+(
+    [URL] => https://designingmedia.com/TLM/index_new.php?p_code=0681b18c-1a23-4036-b50f-055f9db984b1&path=designingmedia.com&email=haroon@akdesigner.com&removed_status=0&type=live&agent=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6NTYuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC81Ni4w
+)
+Array
+(
+    [output] => Array
+        (
+            [result] => access_success
+            [user] => Abdelmoh
+        )
+
+)

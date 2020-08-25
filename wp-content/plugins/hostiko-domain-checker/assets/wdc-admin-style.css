@@ -1,0 +1,32 @@
+a.disabled{
+  opacity: 0.5
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+
+#wdc-whois-panel {
+	position: relative;
+    overflow: auto;
+    margin: 16px 0;
+    padding: 0px 10px 0;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    font-size: 13px;
+    line-height: 2.1em;
+}
+
+.options-container textarea[id^="wdc-options_"]{
+    width: 40em;
+    height: 8em;
+}
+
+.options-container .regular-text{
+    width: 40em;
+}
+
+#wdc-options_available_domain_cache, #wdc-options_unavailable_domain_cache {
+    width: 7em;
+}

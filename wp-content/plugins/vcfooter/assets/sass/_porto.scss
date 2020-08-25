@@ -1,0 +1,247 @@
+.bb_footer1{
+	.wpb_wrapper{
+		color: #777;
+		font-weight:400;
+		font-size:15px;
+		p{
+			line-height: 24px;
+		}
+	}
+	.bb_footer_contact{
+		label{
+			width: 85%;
+    		float: left;
+		}
+		.wpcf7-form-control{
+			padding: 10px 1.8rem;
+			border-radius: 35px 0 0 35px;
+			&.wpcf7-text{
+				width: 100%;
+				font-size: 12px;
+			}
+			input{
+				background-color: #DDDEDE;
+			}
+		}
+		.wpcf7-submit{
+			border: none;
+			background-color: #DDDEDE;
+			color: #333;
+			font-size: 14px;
+			font-size: 12px;
+			width: 15%;
+			font-weight: 900;
+			float: left;
+			padding: 11px 1.8rem;
+			border-radius: 0 35px 35px 0;
+			border-left: 1px solid;
+			border-color: rgba(0,0,0,.09);
+		}
+	}
+	
+	.bbfb-social{
+		width: 29px;
+		text-align: center;
+		float:left;
+		margin-right: 8px;
+	}
+	.bbfb-social-item{
+		padding: 1px;
+		margin: 0;
+	}
+	.widget-title {
+		h6{
+			font-size: 15px !important;
+			font-weight: 300;
+		}
+	}
+	.vc_column_container{
+		.vc_column-inner{
+			padding-top: 0px !important;
+		}
+	}
+}
+.bb_footer3_socical{
+	.vc_col-sm-1{
+		width: 2%;
+	}
+}
+.bb_footer4_contact{
+	p{
+		label{
+			float: left;
+    		width: 80%;
+			input.wpcf7-email{
+				padding: 5px 20px;
+				width: 100%;
+			}
+		}
+		input.wpcf7-submit{
+			border: none;
+			float: left;
+			width: 20%;
+			padding: 7px 0px;
+			border-radius: 0 5px 5px 0;
+		}
+	}
+}
+.bb_footer4_icon  {
+	.bb_footer4_socical{
+		float: left;
+		.vc_icon_element-inner{
+			width: 1em !important;
+			height: 1em !important;
+		}
+	}
+}
+.bb_footer4_group_socical{
+	li:first-child{
+		padding: 2px 10px !important;
+	}
+	li{
+		padding: 2px 6px !important;
+		background-color: white;
+		border-radius: 35px;
+		margin-right: 10px;
+		a{
+			padding: 0 !important;
+		}
+	}
+}
+.bb_label{
+    color:#777;
+    line-height: 25px;
+}
+.bb_value{
+    color:#fff;
+}
+.bb_footer4_group_socical li:first-child {
+    padding: 4px 10px !important;
+}
+.bb_footer4_group_socical li {
+    padding: 4px 7px !important;
+}
+.bb_ft7_icon .vc_icon_element-inner{
+    width:1em !important;
+    height:1em !important;
+}
+.bb_ft7_icon{
+    float:left;
+}
+.vc_custom_heading.bb_ft8_heading{
+	width: 140px;
+}
+
+.bb_ft8_socical{
+	.wpb_column.vc_column_container{
+		width: 16%;
+	}
+	.vc_column-inner{
+		.vc_icon_element {
+			.vc_icon_element-inner{
+				width: 1em;
+				height: 1em;
+				background: #fff;
+				padding: 5px;
+				border-radius: 35px;
+			}
+		}
+	}
+}
+.bb_ft8_icon {
+	.vc_icon_element-inner{
+		height: 1em !important;
+	}
+}
+.bb_ft8_contact{
+	.wpcf7-form-control{
+		background-color: #DDDEDE;
+		color: #777;
+		border-radius: 3px;
+		border: 1px solid;
+		outline: none;
+		box-shadow: none;
+		padding: 8px 12px;
+		&.wpcf7-textarea{
+			height: 93px;
+		}
+		&.wpcf7-submit{
+			background: transparent;
+			border-color: #00B19E;
+			color: #00B19E;
+			&:hover{
+				background: #00B19E;
+				color: #fff;
+			}
+		}
+	}
+}
+.wpcf7-validation-errors{
+	color: #ff0000;
+	display: none !important;
+}
+.bb_ft10_socical {
+	margin-left: 0px !important;
+	.vc_icon_element {
+		width: 35px;
+    	height: 35px;
+	}
+	.vc_icon_element-inner{
+		padding: 8px;
+		width: 1em !important;
+		height: 1em !important;
+	}
+	.wpb_column.vc_column_container{
+		width: 15%;
+	}
+}
+.bb_ft11_contact{
+	.wpcf7-form-control.wpcf7-text.wpcf7-email{
+		float: left;
+		height: 48px;
+		padding-left: 1.5rem;
+		background-color: #DDDEDE;
+		border-radius: 25px 0 0 25px;
+	}
+	.wpcf7-form-control.wpcf7-submit{
+		float: right;
+		color: #fff;
+		background-color: #ba1f72;
+		border-color: #ba1f72 #ba1f72 #8f1858;
+		border: none;
+		padding: 14.7px 21px;
+		border-radius:  0 25px 25px 0 ;
+	}
+} 
+.bb_ft13_contact{
+	label{
+		width: 85%;
+		float: left;
+	}
+	.wpcf7-form-control{
+		padding: 13px 1.8rem;
+		border-radius: 35px 0 0 35px;
+		&.wpcf7-text{
+			width: 100%;
+			font-size: 12px;
+			background-color: #DDDDDE;
+		}
+		input{
+			background-color: #DDDEDE;
+		}
+	}
+	.wpcf7-submit{
+		border: none;
+		background-color: #DDDEDE;
+		color: #333;
+		font-size: 14px;
+		font-size: 12px;
+		width: 15%;
+		font-weight: 900;
+		float: left;
+		padding: 14px 1.8rem;
+		border-radius: 0 35px 35px 0;
+		border-left: 1px solid;
+		border-color: rgba(0,0,0,.09);
+	}
+}

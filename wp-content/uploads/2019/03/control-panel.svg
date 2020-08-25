@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-49 141 512 512" style="enable-background:new -49 141 512 512;" xml:space="preserve">
+	 <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+	 	
+
+.panel_bar {
+	animation-name: panelBar;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes panelBar {
+	0% {transform: translate(0, 0);}
+	50% {transform: translate(70px, 0);}
+}
+
+.panel_bar_first{
+	animation-name: panelBar-1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes panelBar-1 {
+	0% {transform: translate(0, 0);}
+	50% {transform: translate(0, 20px);}
+}
+
+.panel_bar_sec {
+	animation-name: panelBar-2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes panelBar-2 {
+	0% {transform: translate(0, 0);}
+	50% {transform: translate(0, 70px);}
+}
+
+.panel_bar_third {
+	animation-name: panelBar-3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes panelBar-3 {
+	0% {transform: translate(0, 0);}
+	50% {transform: translate(0, -30px);}
+}
+
+.circle_section {
+	animation-name: circleSection;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes {
+	0% {transform: translate(15px, -4px);}
+	50% {transform: translate(-15px, 15px);}
+	100% {transform: translate(15px, -4px);}
+}
+
+
+
+	 </style>
+
+
+
+<style type="text/css">
+	.st0{fill:#E9DB00;}
+	.st1{fill:#076D4D;}
+</style>
+
+
+
+
+<path class="st0" d="M380.85,267H-10.85c-8.92,0-16.15-7.23-16.15-16.15v-26.71c0-8.92,7.23-16.15,16.15-16.15h391.71
+	c8.92,0,16.15,7.23,16.15,16.15v26.71C397,259.77,389.77,267,380.85,267z"/>
+<g>
+	<path class="st0" d="M95,509c48.6,0,88-39.4,88-88H95v-8v-80c-48.6,0-88,39.4-88,88S46.4,509,95,509z"/>
+</g>
+<path class="st1" d="M407,157H47c-22.06,0-40,17.94-40,40c-22.06,0-40,17.94-40,40v360c0,22.06,17.94,40,40,40h360
+	c22.06,0,40-17.94,40-40c22.06,0,40-17.94,40-40V197C447,174.94,429.06,157,407,157z M7,213h8h352c13.23,0,24,10.77,24,24v24H-17
+	v-24C-17,223.77-6.23,213,7,213z M391,597c0,13.23-10.77,24-24,24H7c-13.23,0-24-10.77-24-24V277h408v312V597z M431,557
+	c0,13.23-10.77,24-24,24V237c0-22.06-17.94-40-40-40H23c0-13.23,10.77-24,24-24h360c13.23,0,24,10.77,24,24V557z"/>
+<rect x="-1" y="229" class="st1" width="16" height="16"/>
+<rect x="31" y="229" class="st1" width="16" height="16"/>
+<rect x="63" y="229" class="st1" width="16" height="16"/>
+<path class="st1" d="M183,413h-80v-80c0-4.42-3.58-8-8-8c-52.94,0-96,43.06-96,96s43.06,96,96,96s96-43.06,96-96
+	C191,416.58,187.42,413,183,413z M15,421c0-41.42,31.63-75.58,72-79.6v68.59l-53.9,61.6C21.8,457.8,15,440.18,15,421z M95,501
+	c-24.45,0-46.34-11.06-61.03-28.4l11.06,9.66l47.11-53.84c0.9,0.34,1.85,0.58,2.86,0.58h79.6C170.58,469.37,136.42,501,95,501z"/>
+
+
+<path class="st1 circle_section" d="M127,397h88c4.42,0,8-3.58,8-8c0-52.94-43.06-96-96-96c-4.42,0-8,3.58-8,8v88C119,393.42,122.58,397,127,397z
+	 M135,309.4c37.74,3.77,67.83,33.86,71.6,71.6H135V309.4z"/>
+
+
+<polygon class="st1" points="191,597 191,581 7,581 7,597 "/>
+
+
+
+<polygon class="st1 panel_bar" points="71,573 55,573 55,605 71,605 "/>
+
+
+
+<polyline class="st1" points="255,477 271,477 271,301 255,301 "/>
+<path class="st1" d="M359,493H215c-4.42,0-8,3.58-8,8v88c0,4.42,3.58,8,8,8h144c4.42,0,8-3.58,8-8v-88
+	C367,496.58,363.42,493,359,493z M351,509v32l-19.2-14.4c-2.6-1.95-6.13-2.14-8.91-0.46l-36.23,21.74l-28.07-14.04
+	c-3.09-1.54-6.8-0.94-9.23,1.5L223,561.69V509H351z M226.31,581l30.26-30.26l26.84,13.42c2.46,1.22,5.34,1.11,7.7-0.3l35.38-21.23
+	L351,561v20H226.31z"/>
+<polygon class="st1 panel_bar_first" points="279,366.63 279,350.63 247,350.63 247,366.63 "/>
+
+
+<polyline class="st1" points="303,477 319,477 319,301 303,301 "/>
+<polygon class="st1 panel_bar_sec" points="327,356.63 327,340.63 295,340.63 295,356.63 "/>
+
+
+<polyline class="st1" points="343,477 359,477 359,301 343,301 "/>
+<polygon class="st1 panel_bar_third" points="367,412.63 367,396.63 335,396.63 335,412.63 "/>
+</svg>

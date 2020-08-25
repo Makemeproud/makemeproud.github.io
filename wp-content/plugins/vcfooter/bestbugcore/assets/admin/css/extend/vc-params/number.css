@@ -1,0 +1,40 @@
+.bb-number {
+  display: inline-block;
+  vertical-align: top; }
+  .bb-number span {
+    line-height: 40px;
+    margin-left: 10px; }
+  .bb-number input[type=number] {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    -moz-appearance: textfield;
+    height: 40px;
+    width: 70px;
+    margin: 0; }
+    .bb-number input[type=number]::-webkit-inner-spin-button, .bb-number input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none; }
+  .bb-number .minus,
+  .bb-number .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    width: 30px;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    color: #888;
+    margin: 0;
+    padding: 0; }
+    .bb-number .minus:focus,
+    .bb-number .plus:focus {
+      outline: none;
+      border-color: #5b9dd9;
+      border-width: 1px !important;
+      -webkit-box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+      box-shadow: 0 0 2px rgba(30, 140, 190, 0.8); }
+  .bb-number .minus {
+    border-right-width: 0; }
+  .bb-number .plus {
+    border-left-width: 0; }

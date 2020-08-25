@@ -1,0 +1,437 @@
+
+.bb-color-manege-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #69696961;
+    top: 0;
+    left: 0;
+    .bb-color-manege{
+        box-shadow: 5px 10px 18px #888888;
+        width: 1100px;
+        height: auto;
+        position: absolute;
+        top:100px;
+        left: 500px;
+        background: rgb(235, 235, 235);
+        header{
+            padding: 10px;
+            background: #DCDCDC;
+            h3{
+                margin: 0px;
+                display: inline-block;
+            }
+            .bb-header-function{
+                display: inline-block;
+                float: right;
+                a{
+                    display: inline-block;
+                    color: #a7a7a7;
+                    font-size: 18px;
+                    padding: 0px 10px;
+                    cursor: pointer;
+                    &:hover{
+                        color: #444;
+                    }
+                }
+            }
+        }
+        .bb-color-manege-body{
+            display: flex;
+            .bb-color-manege-body-left{
+                width: 50%;
+                padding: 10px;
+                .bb-color-manege-add-new{
+                    display: flex;
+                    input[type=text]{
+                        width: 200px;
+                        height: 35px;
+                    }
+                    input[type=color]{
+                        width: 50px;
+                        height: 35px;
+                        margin: 0px;
+                        padding: 0px;
+                        display: inline-block;
+                    }
+                }
+                .bb-color-manege-add-buttom{
+                    margin-top:1.5em;
+                    a{
+                        cursor: pointer;
+                        padding: 10px;
+                        border-radius: 4px;
+                        background: #afafaf;
+                        color: #444;
+                        display: inline-block;
+                        margin-right: 15px;
+                    }
+                }
+                .bb-color-list{
+                    margin-top: 1.3em;
+                    max-height: 500px;
+                    overflow-y: scroll;
+                    overflow-x: hidden;
+                    li{
+                        cursor: pointer;
+                        display: inline-block;
+                        padding: 5px;
+                        background: #fafafa;
+                        margin: 5px;
+                        border-radius:4px;
+                        &:hover{
+                            background: #cecece;
+                        }
+                    }
+                }
+            }
+            .bb-color-manege-body-right{
+                width: 50%;
+                padding: 10px;
+                .bb-color-manege-body-right-head{
+                    margin: 1em 0;
+                    h2{
+                        margin: 0px;
+                        display: inline-block;
+                    }
+                    a{
+                        padding: 0 10px;
+                        float: right;
+                        cursor: pointer;
+                        color: #444;
+                        border-right: 1px solid #757575;
+                        &.bb-color-manege-add-buttom-delete-sel{
+                            color: #b30606;
+                            border-right: none;
+                        }
+                    }
+                }
+                .bb-color-manege-list-color-selected{
+                    margin-top: 1.3em;
+                    display:grid;
+                    grid-template-columns: 30% 30% 30%;
+                    grid-gap: 20px;
+                    li{
+                        text-align: center;
+                        overflow: hidden;
+                        position: relative;
+                        display: inline-block;
+                        margin: 0px;
+                        border: 1px solid #ccc;
+                        background: #fff;
+                        border-radius: 4px;
+                        padding: 10px;
+                        font-size: 18px;
+                        line-height: 1.3;
+                        label{
+                            width: 100%;
+                            height: 100%;
+                            display: inline-block;
+                        }
+                        input{
+                            visibility: hidden;
+                            opacity: 0;
+                            display: none;
+                        }
+                        input:checked + span{
+                            &::before{
+                                position: absolute;
+                                top: -5px;
+                                right: -5px;
+                                height: 0px;
+                                width: 0px;
+                                content: "";
+                                border: 24px solid transparent;
+                                border-left: 24px solid #878c80;
+                                transform: rotate(-45deg) translateY(0px) translateX(35px);
+                                z-index: 0;
+                            }
+                            &:after{
+                                position: absolute;
+                                top: 0px;
+                                right: 0px;
+                                content: "\f00c";
+                                font: normal normal normal 14px/1 FontAwesome;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.bb-google-load-fonts-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #4e4e4e30;
+    .bb-google-load-fonts{
+        box-shadow: 5px 10px 18px #888888;
+        width: 1100px;
+        height: auto;
+        position: absolute;
+        top:100px;
+        left: 500px;
+        background: #F1F1F1;
+        padding: 20px;
+        .bb-load-fonts-header{
+            display: inline-block;
+            width: 100%;
+            position: sticky;
+            top: 0px;
+            z-index: 2;
+            .bb-load-fonts-title{
+                padding: 0px 0px 20px 0px;
+                display: inline-block;
+                width: 100%;
+                h2{
+                    display: inline-block;
+                    margin: 0px;
+                    font-size: 2em;
+                    line-height: 1;
+                }
+                .bb-load-fonts-select{
+                    display: inline-block;
+                    float: right;
+                    i{
+                        font-size: 16px;
+                        cursor: pointer;
+                        padding: 5px 5px 5px 10px;
+                        &.bb-ruturn-font{
+                            &:hover{
+                                color: #0fb300;
+                            }
+                        }
+                        &.bb-cancel-font{
+                            &:hover{
+                                color: #b30000;
+                            }
+                        }
+                    }
+                }
+            }
+            .bb-load-fonts-menu{
+                ul{
+                    margin: 0px;
+                    display: flex;
+                    width: 100%;
+                    background: #fff;
+                    li{
+                        display: inline-block;
+                        margin: 0px;
+                        select{
+                            box-shadow: none;
+                            border: none;
+                            padding: 15px;
+                            border-radius: 0px;
+                            -moz-appearance: none;
+                            -webkit-appearance: none;
+                            appearance: none;
+                            margin: 0px;
+                            font-size: 14px;
+                            background: #fff;
+                            font-weight: 500;
+                            color: #444;
+                            border-right: 1px solid #E6E6E6;
+                            &:hover{
+                                background:#E6E6E6 ;
+                                color: #444;
+                            }
+                            &::-ms-expand {
+                                display: none;
+                            }
+                        }
+                        &:last-child{
+                            width: 77%;
+                        }
+                        .bb-load-fonts-title-shearch{
+                            display: inline-block;
+                            float: right;
+                            position: relative;
+                            padding: 5px 5px;
+                            input{
+                                width: 206px;
+                                border-radius: 0px;
+                                padding: 3px 30px 3px 10px;
+                                box-shadow: none;
+                                border-color: #b1b1b1;
+                            }
+                            i{
+                                position: absolute;
+                                top: 0px;
+                                right: 0px;
+                                padding: 18px 16px 18px 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bb-load-fonts-body{
+            max-height: 600px;
+            overflow-y:scroll;
+            overflow-x: hidden;
+            padding-top:30px ;
+            .bb-load-fonts-seleted{
+                background: #fff;
+                h4{
+                    margin: 0px;
+                    padding: 10px 20px 0px 20px;
+                    font-size: 16px;
+                }
+                .bb-load-fonts-seleted-ul{
+                    margin: 0px;
+                    padding: 20px;
+                    display: grid;
+                    grid-template-columns: 31.4% 31.4% 31.4%;
+                    grid-gap: 30px;
+                    .bb-load-fonts-seleted-li{
+                        background: #E6E6E6;
+                        display: inline-block;
+                        padding: 20px 15px;
+                        margin: 0px;
+                        border: 1px solid #dedede;
+                        position: relative;
+                        &:hover{
+                            .bb-load-fonts-seleted-font{
+                                .bb-load-fonts-seleted-font-funct{display: block;}
+                            }
+                        }
+                        .bb-load-fonts-seleted-font{
+                            h3{
+                                margin: 0px;
+                                font-size: 24px;
+                                line-height: 30px;
+                                font-weight: inherit;
+                            }
+                            .bb-load-fonts-seleted-font-funct{
+                                display: none;
+                                position: absolute;
+                                top:0px;
+                                height: 100%;
+                                right: 0px;
+                                i{
+                                    &:hover{
+                                        &.bb-remove-font{
+                                            color: #eb0101;
+                                        }
+                                    
+                                        background: #DCDCDC;
+                                    }
+                                    &.bb-remove-settings{
+                                        display:none;
+                                    }
+                                    cursor: pointer;
+                                    padding: 11px;
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .bb-load-fonts-list{
+                .paginationjs{
+                    padding-top: 30px;
+                    .paginationjs-pages{
+                        ul{
+                            background: #FFF;
+                            margin: 0px;
+                            display: inline-block;
+                            li{
+                                cursor: pointer;
+                                padding: 10px 18.8px;
+                                text-align: center;
+                                display: inline-block;
+                                margin: 0;
+                                border-right: 1px solid #e6e6e6;
+                                &:first-child{
+                                    border-left:1px solid #e6e6e6 ;
+                                }
+                                &.active{
+                                    background: #e6e6e6;
+                                }
+                                &:hover{
+                                    background: #e6e6e6;
+                                }
+                                a{
+                                    box-shadow: none;
+                                    color: #444;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                .bb-load-fonts-list-ul{
+                    margin: 0px;
+                    padding-top: 30px;
+                    display: grid;
+                    grid-template-columns: 31.5% 31.5% 31.5%;
+                    grid-gap: 30px;
+                    .bb-load-fonts-list-li{
+                        background: #fff;
+                        display: inline-block;
+                        padding: 10px;
+                        margin: 0px;
+                        border: 1px solid #dedede;
+                        position: relative;
+                        &:hover{
+                            .bb-load-fonts-list-font{
+                                .bb-load-fonts-list-font-funct{
+                                    i{
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                        .bb-load-fonts-list-font{
+                            span{
+                                float: right;
+                                color: #878c80;
+                            }
+                            h3{
+                                display: inline-block;
+                                margin: 0px;
+                                font-size: 24px;
+                                line-height: 30px;
+                                font-weight: inherit;
+                            }
+                            .bb-load-fonts-list-font-funct{
+                                color: #aaa;
+                                select{
+                                    padding: 0px 22px 0px 0px;
+                                    border: none;
+                                    box-shadow: none;
+                                    color: #949494;
+                                    &:hover{
+                                        color: #444;
+                                    }
+                                }
+                                i{
+                                    &.fa-check{
+                                        opacity: 1;
+                                        padding: 3px 4px;
+                                        color: #2ec500;
+                                    }
+                                    opacity: 0;
+                                    cursor: pointer;
+                                    font-size: 14px;
+                                    padding: 3px 5px;
+                                    display: inline-block;
+                                    border-radius: 100%;
+                                    border: 1px solid;
+                                    float: right;
+                                    margin-top: 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

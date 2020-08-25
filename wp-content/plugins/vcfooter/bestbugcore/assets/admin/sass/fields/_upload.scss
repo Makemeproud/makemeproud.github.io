@@ -1,0 +1,35 @@
+.bb-upload-image {
+    margin-top: 0;
+    display: flex;
+    float: left;
+    height: 80px;
+    width: 80px;
+    background: #F5F5F5;
+    border: 1px solid #DFDFDF;
+    font-size: 0;
+    color: #F5F5F5;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    cursor: pointer;
+    
+    .bb-btn-clear, .bb-btn-add {
+        color: #2c3e50;
+        font-size: 25px;
+    }
+    .bb-btn-clear {
+        display: none;
+    }
+    
+    &.uploaded {
+        .bb-btn-clear {
+            display: block;
+            color: #FF7877;
+            text-shadow: 0 0 5px #fff;
+        }
+        .bb-btn-add {
+            display: none;
+        }
+    }
+}

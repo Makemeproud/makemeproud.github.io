@@ -1,0 +1,27 @@
+.formCustomEmail input[type="email"] {
+  color: white !important;
+  background: #1488ff !important;
+  border: 2px solid #d3d3d3 !important;
+}
+
+.formCustomEmail input[type="submit"] {
+  color: white !important;
+  background: #1488ff !important;
+  border: 2px solid #d3d3d3 !important;
+  height: 34px;
+  width: 100px;
+}
+
+.formEmailFooter12 input[type="email"] {
+  color: #888888 !important;
+  background: #ffffff !important;
+  border: 2px solid #888888 !important;
+}
+
+.formEmailFooter12 input[type="submit"] {
+  color: #888888 !important;
+  background: #ffffff !important;
+  border: 2px solid #888888 !important;
+  height: 35px;
+  width: 100px;
+}

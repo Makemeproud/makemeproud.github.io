@@ -1,0 +1,15 @@
+.bb-row {
+    display: flex;
+    .bb-col {
+        
+    }
+    .bb-col-grow {
+        flex-grow: 1;
+    }
+    .text-right {
+        text-align: right;
+    }
+}
+.bb-hidden {
+    display: none!important;
+}

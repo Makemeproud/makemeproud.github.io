@@ -1,0 +1,42 @@
+.bb-wrap {
+    .dataTables_filter{
+        label{
+            &:focus {
+                border-color: #5b9dd9;
+                box-shadow: 0 0 2px rgba(30,140,190,.8);
+                outline: 2px solid transparent;
+            }
+            background-color: #fff;
+            padding: 9px;
+            padding-right: 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            input[type=search]{
+                box-shadow: none;
+                border: none;
+                border-radius: 0;
+                margin-left: 0;
+            }
+            input[type=search]:focus {
+                box-shadow: none;
+                outline: none;
+            }
+        }
+    }
+}
+
+
+.remove_all {
+    display: inline-block;
+    position: relative;
+    .delete_checked_ids {
+        position: absolute;
+        top: -58px;
+        left: 110px;
+        z-index: 9;
+        display: none;
+    }
+    input[type=hidden] {
+        display: none;
+    }
+}

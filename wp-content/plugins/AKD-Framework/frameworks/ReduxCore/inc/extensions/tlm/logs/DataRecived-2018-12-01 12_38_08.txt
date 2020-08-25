@@ -1,0 +1,13 @@
+Array
+(
+    [URL] => https://designingmedia.com/TLM/index.php?p_code=dc86278d-b326-4789-af8c-77f2259f0cd1&path=designingmedia.com&email=haroon@akdesigner.com&removed_status=1&agent=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNzAuMC4zNTM4LjExMCBTYWZhcmkvNTM3LjM2
+)
+Array
+(
+    [output] => Array
+        (
+            [result] => remove_success
+            [user] => martinchan
+        )
+
+)

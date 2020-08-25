@@ -1,0 +1,43 @@
+@media screen and (min-width: 992px) {
+    li.akd-demo{width:100%;display:inline-block}
+}
+@media screen and (min-width: 1200px) {
+    li.akd-demo{width:49%;display:inline-block}
+}
+@media screen and (min-width: 1600px) {
+    li.akd-demo{width:33%;display:inline-block}
+}
+@media screen and (min-width: 1900px) {
+    li.akd-demo{width:24%;display:inline-block}
+}
+.akd-content{margin:10px 10px 10px 0;padding:5px;border:1px solid #ddd;position:relative}
+.akd-action h3{font-size:14px;padding:5px 10px;text-transform:uppercase}
+.akd-action > div{line-height:34px;position:relative}
+.akd-action .install-demo,.akd-action .uninstall-demo{float:right;line-height:20px}
+.akd-action .delete-demo{padding:0 2px;color:red;padding-top:3px}
+.akd-opacity-0-5{opacity:.5}
+.akd-action .uninstall-demo{color:#FFF;border-color:#d9534f;background:#d9534f;-webkit-box-shadow:0 1px 0 #d9534f;box-shadow:0 1px 0 #d9534f;padding-top:3px;margin-left:5px}
+.akd-action .uninstall-demo:hover{color:#FFF;border-color:#D83631;background:#D83631;-webkit-box-shadow:0 1px 0 #D83631;box-shadow:0 1px 0 #D83631}
+.akd-action .uninstall-demo:focus{color:#FFF;border-color:#D83631;background:#D83631;-webkit-box-shadow:0 1px 0 #D83631;box-shadow:0 1px 0 #D83631}
+.akd-server-info{width: 100%;padding: 0 50px;box-sizing: border-box;}
+.akd-server-info th{width:200px}
+.akd-server-info i.el-check{color:#0099D5;padding-right:15px}
+.akd-server-info i.el-remove-circle{color:#D50000;padding-right:15px}
+.akd-action .select-import-data{line-height:20px}
+.akd-data-import{height:100px;max-height:100px;overflow:auto;border:1px solid #ddd;padding:10px;position:absolute;min-width:250px;background:#fff;z-index:2}
+.akd-data-import:not(.active){display:none}
+.akd-demo-process{display:none;position:absolute;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.65)}
+.akd-demo-process.is-active{display:block}
+.akd-process{position:absolute;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);height:10px;background-color:#FFF;left:0;right:0;margin:0 5px}
+.akd-demo-process span{color:#fff;font-size:11px;font-weight:700;position:absolute;right:0;top:-20px;z-index:3}
+.akd-process > div{position:absolute;background:#3cbaea;top:0;bottom:0;-webkit-transition:width 2s;transition:width 2s}
+#akd-admin-demo-page .redux-info,#akd-admin-demo-page .redux-critical{color:#fff;background:#23282d}
+#akd-admin-demo-page .akd-server-info th{text-align:right;color:#fff;font-size: 14px;font-weight: 600;word-spacing: 1px;}
+#akd-admin-demo-page .akd-server-info td{color:#fff}
+#akd-admin-demo-page .redux-critical{box-shadow:none!important;border:none;padding:20px 0}
+#akd-admin-demo-page .redux-info-icon{display:none}
+#akd-admin-demo-page .redux-info-desc{display:none}
+#akd-admin-demo-page .akd-thumb img{width:100%}
+#akd-admin-demo-page .akd-content{background-color:#fff}
+#akd-admin-demo-page .akd-action h3{border-bottom:1px solid #ddd}
+#akd-admin-demo-page .akd-action form{float:right}

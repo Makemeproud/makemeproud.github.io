@@ -1,0 +1,150 @@
+.bbhd-menu {
+	display: inline-block;
+	&.bbhd-shape-square {
+		.bb-dropdown-menu, .bbhd-mega-menu {
+			border-radius: 0!important;
+		}
+	}
+	> .menu  {
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		> li {
+			display: inline-block;
+			margin: 0 10px;
+			padding: 10px 0;
+			
+			&:hover {
+				> a {
+					color: #252525;
+				}
+			}
+			
+			&:last-child {
+				margin-right: 0;
+			}
+			&:first-child {
+				margin-left: 0;
+			}
+			
+			> a {
+				text-transform: uppercase;
+				font-size: 12px;
+				font-weight: 600;
+			}
+			
+			> ul {
+				top: 100%;
+				list-style: none;
+				line-height: 1.85714286em;
+			}
+			
+			li {
+				ul, ol {
+					left: 100%;
+					top: 0;
+					list-style: none;
+			    	line-height: 1.85714286em;
+				}
+			}
+		}
+	}
+	
+	li {
+		position: relative;
+		
+		&.menu-item-has-children,
+		&.menu-item-object-bbhd_megamenu {
+			&:hover {
+				.bbhd-mega-menu,
+				> .bb-dropdown-menu {
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+			
+			&.dropdown:hover {
+				&::after {
+					right: 20px;
+				}
+			}
+		}
+		
+		a {
+			transition: 0.3s ease;
+		    -webkit-transition: 0.3s ease;
+		    -moz-transition: 0.3s ease;
+			color: #777;
+			
+			&:hover{
+				color: #252525;
+			}
+			.bb-caret {
+				color: inherit;
+				display: inline-block;
+				margin-left: 3px;
+				font-size: 80%;
+				&:after {
+					font-family: FontAwesome;
+					content: "\f107";
+				}
+			}
+		}
+		
+		.bb-dropdown-menu {
+			opacity: 0;
+			min-width: 200px;
+			box-sizing: border-box;
+			visibility: hidden;
+			
+			position: absolute;
+		    z-index: 80;
+		    background: #ffffff;
+			border-radius: 3px;
+		    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
+		    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
+		    padding: 1.23809524em 1.85714286em;
+			transition: 0.3s ease;
+			
+			a {
+				display: block;
+			}
+			.dropdown {
+				&:after {
+				    transition: 0.3s ease;
+					font-family: FontAwesome;
+					content: "\f105";
+					position: absolute;
+					top: 0;
+					right: 0;
+					margin-top: 2px;
+					font-size: 80%;
+					color: #777;
+				}
+				
+				&:hover {
+					> a, &:after {
+						color: #252525;
+					}
+				}
+			}
+		}
+		
+		.bbhd-mega-menu {
+			position: absolute;
+			width: 570px;
+			left: 0;
+		    z-index: 80;
+			background: #ffffff;
+			border-radius: 3px;
+			box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
+			-webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
+			padding: 1.23809524em 1.85714286em;
+			
+			opacity: 0;
+			visibility: hidden;
+			top: 100%;
+			transition: 0.3s ease;
+		}
+	}
+}

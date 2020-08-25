@@ -1,0 +1,56 @@
+//Shortcodes icon
+.icon {
+    &-bbfb_menus {
+        background: url(../images/shortcodes/menu.png) !important;
+        background-size: cover !important;
+    }
+    &-bbfb_social {
+        background: url(../images/shortcodes/social.png) !important;
+        background-size: cover !important;
+    }
+    &-bbfb_instagram {
+        background: url(../images/shortcodes/instagram.png) !important;
+        background-size: cover !important;
+    }
+    &-bbfb_search {
+        background: url(../images/shortcodes/search.png) !important;
+        background-size: cover !important;
+    }
+    &-bbfb_cart {
+        background: url(../images/shortcodes/cart.png) !important;
+        background-size: cover !important;
+    }
+    &-bbfb_contact {
+        background: url(../images/shortcodes/contact.png) !important;
+        background-size: cover !important;
+    }
+    &-bbfb_logo {
+        background: url(../images/shortcodes/logo.png) !important;
+        background-size: cover !important;
+    }
+}
+.bbfb-bg-grey {
+    background-color: #f9f9f9;
+}
+.bb-filter-input {
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+.wpsg_raiting{
+    display: inline-block;
+    .wpsg_content_star{
+        display: inline-block;
+        a{
+            text-decoration: none;
+            cursor: pointer;
+            color: rgb(255, 218, 11);
+            padding: 1px;
+            display: inline-block;
+            font-size: 16px;
+            &:hover ~ a{
+                color: rgb(102, 102, 102);
+            }
+        }
+    }
+}

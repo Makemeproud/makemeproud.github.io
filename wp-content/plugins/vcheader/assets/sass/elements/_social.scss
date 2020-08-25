@@ -1,0 +1,54 @@
+.bbhd-social {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	a {
+		-webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+		transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+	}
+	
+	li {
+		display: inline-block;
+	}
+
+	&-item {
+		padding: 6px;
+		&:first-child {
+			padding-left: 0;
+		}
+		&:last-child {
+			padding-right: 0;
+		}
+		a {
+			font-size: 18px;
+		}
+	}
+
+	&-inline-normal {
+		li {
+			display: inline-block;
+		}
+	}
+
+	&-light {
+		li {
+			a {
+				color: #818181;
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+	&-dark {
+		li {
+			a {
+				color: #444;
+				&:hover {
+					color: #111;
+				}
+			}
+		}
+	}
+}

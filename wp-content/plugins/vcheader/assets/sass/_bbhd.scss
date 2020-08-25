@@ -1,0 +1,122 @@
+@import "extend";
+@import "elements/elements";
+
+.bb-header-inside {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	.vc_row, .vc_row * {
+		//overflow: visible!important;
+	}
+	> .vc_row, .sticky-wrapper > .vc_row {
+		margin: 0!important;
+		> .vc_column_container {
+			> .vc_column-inner {
+				padding-left: 0;
+				padding-right: 0;
+				padding-top: 0;
+				z-index: inherit!important;
+			}
+		}
+	}
+}
+
+.bbhd-flexbox-container {
+	display: flex;
+	
+	$justify_contents: flex-start flex-end center space-between space-around space-evenly;
+	$align_items: flex-start flex-end center baseline stretch;
+	
+	@each $justify_content in $justify_contents {
+		&.bbhd-justify_content-#{$justify_content} {
+			justify-content: #{$justify_content};
+		}
+	}
+	 
+	@each $align_item in $align_items {
+		&.bbhd-align_items-#{$align_item} {
+			align-items: #{$align_item};
+		}
+	}
+}
+
+.bbhd-flexbox-item {
+	&.flex-grow-0 {
+		flex-grow: 0;
+	}
+	&.flex-grow-1 {
+		flex-grow: 1;
+	}
+}
+
+.bbhd-text {
+	&-left {
+		text-align: left;
+	}
+	&-center {
+		text-align: center;
+	}
+	&-right {
+		text-align: right;
+	}
+}
+
+.bbhd-hide-on-desktop {
+	@media screen and (min-width: 902px) {
+		display: none;
+	}
+}
+.bbhd-hide-on-mobile {
+	@media screen and (max-width: 901px) {
+		display: none;
+	}
+}
+
+.bbhd-overlay {
+	position: absolute;
+	width: 100% !important;
+	margin: 0 !important;
+	left: 0;
+	z-index: 9;
+}
+
+.sticky-wrapper {
+	> * {
+		z-index: 9999!important;
+	}
+}
+.bbhd-sticky {
+	width: 100%!important;
+	margin: 0!important;
+	left: 0;
+}
+
+.sticky-wrapper {
+	&:not(.is-sticky) .bbhd-hide-border {
+		border: none!important;
+	}
+	&:not(.is-sticky) .bbhd-hide-background {
+		background: none!important;
+	}
+	.bbhd-hide-border {
+		@extend .transition;
+	}
+}
+
+.bbhd-container-boxed {
+	.bbhd-flexbox-container {
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.bbhd-overflow {
+	overflow: visible!important;
+}
+
+#wp-admin-bar-bb-edit-header a:before {
+    content: "\f464";
+    top: 2px;
+}

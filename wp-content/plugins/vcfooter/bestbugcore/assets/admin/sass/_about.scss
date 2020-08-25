@@ -1,0 +1,204 @@
+.wpbb_about_page{
+    .wpbb_about_title{
+        width: 100%;
+        background:#4C60FA ;
+        .wpbb-container{
+            position: relative;
+            .wpbb-left-section{
+                z-index: 2;
+                position: relative;
+                width: 70%;
+                padding:  150px 15% 150px 15%;
+                h1{
+                    font-size: 130px;
+                    font-weight: 700;
+                    color: #fff;
+                    line-height: 1;
+                    margin: 0px;
+                }
+                h3{
+                    margin: 0px;
+                    line-height: 1;
+                    font-size: 20px;
+                    color: #F4D55A;
+                }
+                h4{
+                    width: 50%;
+                    line-height: 2;
+                    color: #DCE0FF;
+                    font-size: 18px;
+                    padding-top: 30px;
+                }
+                .hero-button{
+                    margin-top: 30px;
+                    padding: 13px 40px;
+                    color: #fff;
+                    font-size: 16px;
+                    padding: 13px 40px;
+                    border: solid 3px #FFF;
+                    text-decoration: none;
+                    font-weight: 500;
+                    display: inline-block;
+                    -webkit-transition: all 333ms ease;
+                    transition: all 333ms ease;
+                    -webkit-box-shadow: 0 0 0 transparent;
+                    box-shadow: 0 0 0 transparent;
+                    &:hover{
+                        background: #FFF;
+                        color: #111;
+                    }
+                }
+                .how-to-use{
+                    margin-top:30px;
+                    color: #FFF;
+                    margin-left: 35px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    border-bottom: solid 2px #FFF;
+                    padding-bottom: 2px;
+                    -webkit-transition: all .15s;
+                    transition: all .15s;
+                }
+            }
+        }
+    }
+    .wpbb_about_plugin{
+        .wpbb-container{
+            padding: 70px;
+            .wpbb-plugin-title{
+                h2{
+                    margin: 0;
+                    color: #1d8fd8;
+                    font-weight: 400;
+                    font-size: 42px;
+                    line-height: 1;
+                }
+                h4{
+                    
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 1.7;
+                    color: #888;
+                    margin: 5px 0px 0px 0px;
+                }
+            }
+            .wpbb-plugin-content{
+                .wpbb-list-ul{
+                    display: inline;
+                    margin-top: 50px;
+                    .wpbb-list-li{
+                        margin: 40px 40px 0px 0px;
+                        position: relative;
+                        width: 310px;
+                        float: left;
+                        height: 80px;
+                        padding: 20px;
+                        background: #fff;
+                        &:hover{
+                            box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+                        }
+                        .wpbb-content-li{
+                            position: relative;
+                            height: 100%;
+                            .wpbb-img{
+                                position: absolute;
+                                transition: all .15s;
+                                width: 80px;
+                                height: 80px;
+                            }
+                            .wpbb-title{
+                                height: 55px;
+                                margin: 0px 0px 0px 90px;
+                                color: #323f4a; 
+                                font-weight: bold;
+                                font-size: 14px;                              
+                            }
+                            .wpbb-dep{
+                                font-weight: 400;
+                                line-height: 1.5;
+                                color: #888;
+                                font-size: 14px;
+                                height: 80px;
+                                overflow: hidden;
+                            }
+                            .wpbb-get-plugin-now{
+                                margin: 0px 0px 0px 90px;
+
+                                a{
+                                    text-decoration: none;
+                                    border-radius: 2px;
+                                    color: #fff;
+                                    background: #1D8FD8;
+                                    padding: 8px 16px;
+                                    &:hover{
+                                        background:#349ADC;
+                                    }
+                                }
+                            }
+                        }
+                        .wpbb-content-li:hover + .wpbb-preview{
+                            display: block;
+                        }
+                        .wpbb-preview{
+                            display: none;
+                            position: absolute;
+                            bottom: 0;
+                            left: 270px;
+                            width: 500px;
+                            z-index: 2;
+                            background: rgb(51,51,51);
+                            padding: 10px;
+                            .wpbb-preview-img{
+                                width: 500px;
+                                height: 250px;
+                            }
+                            .wpbb-preview-title{
+                                color: #fff;
+                                font-size: 20px;
+                                margin: 0px;
+                            }
+                            .wpbb-preview-author{
+                                margin: 0px;
+                                color: #8a8a8a;
+                            }
+                            .wpbb-preview-price{
+                                text-align: right;
+                                color: #fff;
+                                font-size: 36px;
+                                font-weight: 700;
+                                margin: 0px;
+                                line-height: 1;
+                            }
+                            .wpbb-preview-dep{
+                                margin-top: 5px;
+                                p{
+                                    margin: 0px;
+                                    color: #8a8a8a;
+                                    display: inline-block;
+                                }
+                                p:nth-child(1){
+                                    width: 30%;
+                                }
+                                p:nth-child(2){
+                                    width: 69%;
+                                    text-align: right;
+                                }
+                                p:nth-child(3){
+                                    width: 100%;
+                                    text-align: right;
+                                }
+                            }
+                            
+                        }
+                    }
+                    .wpbb-list-li:nth-child(4n){
+                        .wpbb-preview{
+                            left: -520px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

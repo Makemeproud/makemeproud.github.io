@@ -1,0 +1,12 @@
+19/08/2020
+Version 2.0.4
+	[Fix] Added page redirect to liscence page after theme activation.	
+	
+05/05/2020
+Version 2.0.3
+	[Fix] Added page redirect to liscence page after theme activation.
+
+14/02/2020
+Version 2.0.2
+	[New] Added styling for liscence and revoke feature for multiple domains.
+	[New] Added activation hook in function.php and redirected towards admin page.

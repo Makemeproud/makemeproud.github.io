@@ -1,0 +1,50 @@
+.bb-number {
+    display: inline-block;
+    vertical-align: top;
+    span {
+        line-height: 40px;
+        margin-left: 10px;
+    }
+    input[type=number] {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        -moz-appearance: textfield;
+        height: 40px;
+        width: 70px;
+        margin: 0;
+        
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+        }
+    }
+    
+    .minus,
+    .plus {
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 18px;
+        width: 30px;
+        height: 40px;
+        border: 1px solid #ddd;
+        background-color: #eee;
+        color: #888;
+        margin: 0;
+        padding: 0;
+        &:focus {
+            outline: none;
+            border-color: #5b9dd9;
+            border-width: 1px!important;
+            -webkit-box-shadow: 0 0 2px rgba(30,140,190,.8);
+            box-shadow: 0 0 2px rgba(30,140,190,.8);
+        }
+    }
+    .minus {
+        border-right-width: 0;
+    }
+    .plus {
+        border-left-width: 0;
+    }
+}

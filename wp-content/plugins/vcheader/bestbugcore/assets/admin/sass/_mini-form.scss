@@ -1,0 +1,9 @@
+.bb-mini-form {
+    > * {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    select, input {
+        max-width: 150px;
+    }
+}

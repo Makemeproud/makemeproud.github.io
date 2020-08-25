@@ -1,0 +1,13 @@
+Array
+(
+    [URL] => https://designingmedia.com/TLM/index.php?p_code=2abf7a3d-7a8d-40e3-800c-0331ef527283&path=designingmedia.com&email=haroon@akdesigner.com&removed_status=0&agent=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNzAuMC4zNTM4LjExMCBTYWZhcmkvNTM3LjM2
+)
+Array
+(
+    [output] => Array
+        (
+            [result] => access_denied
+            [reason] => code_registered
+        )
+
+)

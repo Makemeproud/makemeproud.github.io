@@ -1,0 +1,7 @@
+12/02/2020
+version 3.7.2
+	[Fix] Add Option to import data for child theme
+
+11/02/2020
+version 3.7.1
+	[New] One Importer for all themes

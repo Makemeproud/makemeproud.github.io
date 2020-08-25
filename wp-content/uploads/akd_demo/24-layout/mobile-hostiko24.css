@@ -1,0 +1,351 @@
+@media screen and (max-width:1199px) {
+    .fontsize_20{font-size:18px}
+    .fontsize_48{font-size:40px}
+    .fontsize_24{font-size:22px}
+    .lineheight_54{line-height:50px}
+    .fontsize_32{font-size:28px}
+    .padding_tb130{padding-top:100px;padding-bottom:100px}
+    #homepage-banner{background-size:100%!important;position:relative;height:485px}
+    .dedicated_table thead th,.dedicated_table tbody td{font-size:14px}
+    #homepage-banner .padding_tb130 .vc_column-inner{padding-left:15%!important}
+    #homepage-banner:before{content:"";position:absolute;left:0;top:0;right:0;width:100%;height:100%;background-color:rgba(11,122,88,0.9)}
+    #domain-checkerlayout24{padding-top:20px!important;padding-bottom:20px!important}
+    #domain-checkerlayout24 h2{margin-top:15px}
+    .fontsize_36{font-size:30px}
+    .lineheight_52{line-height:45px}
+    #build-website-today p br{display:none}
+    .social-iconarea p br{display:none}
+    .plan_box .primary_btn a{padding:16px 48px!important}
+    #build-website-today{background-size:50% 100%!important;height:359px}
+    .plan_box .plan_listitem ul li{line-height:30px;font-size:15px}
+    .plan_box .plan_listitem ul li:last-child{line-height:24px}
+    .plan_box .plan_pricing span{font-size:36px;font-weight:300!important}
+    .featured-box p{font-size:14px}
+    .featured-box h2{min-height:40px}
+    #wdc-style button#Submit:before{right:0;left:auto}
+    .horizontal_slider .price-button a{padding:18px 59px}
+    .horizontal_slider .price_txt .dollar,.horizontal_slider .price_txt #price_val,.horizontal_slider .price_txt #price2_val{font-size:40px;line-height:60px}
+    .horizontal_slider .price_offer br{display:none}
+    .horizontal_slider .price_offer .off{font-size:28px}
+    .horizontal_slider .priceslider_content .smalbox1:first-child{padding-left:32px}
+    .horizontal_slider .priceslider_content .smalbox1{padding-left:30px}
+    .oprating-systemicons .vc_figure{padding-top:42px;padding-bottom:50px;height:150px}
+    .horizontal_slider .price-greybox{padding:0 5% 37px}
+    .oprating-systemicons .vc_figure{width:100%}
+    .oprating-systemicons2 .vc_figure:hover,.oprating-systemicons3 .vc_figure:hover,.oprating-systemicons4 .vc_figure:hover,.oprating-systemicons5 .vc_figure:hover{background-size:40%}
+    .oprating-systemicons1 .vc_figure:hover{background-size:55%}
+    .oprating-systemicons .vc_single_image-wrapper img{max-width:80%!important}
+    .horizontal_slider .priceslider_content .smalbox1 figure{width:25%}
+    #call-of-action p br,#footer-detailedbox p br{display:none}
+    .testimonial-inner{line-height:24px}
+    #call-of-action .call-ofaction-cont{width:60%;padding-left:50px}
+    #call-of-action .empty-row{display:none}
+    .social-iconarea p{padding:0 5%}
+    .padding_tb55{padding-top:50px;padding-bottom:50px}
+    #subbanner-page.padding_tb100{padding-top:50px;padding-bottom:50px}
+    #subbanner-page{height:180px}
+    #subbanner-page .fontsize_48{font-size:26px}
+    #subbanner-page .fontsize_20{font-size:16px}
+    #subbanner-page h2{margin-bottom:2px}
+    #shared-planbox.shared-planbox .plan_box .wpb_wrapper{padding-top:40px!important;padding-bottom:40px!important}
+    #shared-planbox.shared-planbox .plan_box .wpb_wrapper .wpb_wrapper{padding-top:0!important;padding-bottom:0!important}
+    #comparison-chart{padding-left:2%!important;padding-right:2%!important}
+    .reseller-planingprice .pricing-box span strong{font-size:32px}
+    .flex_box_outer_sec .primary_btn a{padding:14px 24px!important}
+    #comparison-chart .primary_btn{margin-bottom:30px!important}
+    #about-contentbox p br{display:none}
+    #domain_tldbox .domain_tldbox .wpb_wrapper{padding-top:40px;padding-bottom:40px}
+    .contactus-mailingbox{font-size:14px}
+    .contactus-mailingbox .wpb_wrapper{padding:40px 0}
+    }
+    @media screen and (max-width:991px) {
+    #managed-section .stacktable.small-only,#domain_table .stacktable.small-only{display:table!important}
+    #managed-section .stacktable.large-only,#domain_table .stacktable.large-only{display:none}
+    body{font-size:14px}
+    .fontsize_24{font-size:20px}
+    .padding_top50{padding-top:0!important}
+    .plan_box .plan_listitem ul li{line-height:26px}
+    .lineheight_36{line-height:30px}
+    #homepage-banner{height:397px}
+    .dedicated_table th{background-color:#0B7A58;color:#fff;border-color:#fff}
+    .dedicated-boxpricing span{font-size:40px}
+    .fontsize_30{font-size:24px}
+    .managed-server .wpb_wrapper{padding-top:40px;padding-bottom:40px}
+    #shared-planbox.shared-planbox .plan_box{width:50%!important}
+    #subbanner-page p{line-height:24px}
+    .padding_tb130{padding-top:70px;padding-bottom:70px}
+    .hostiko24phone-number p,.email-address p{margin-top:-5px;padding-top:0!important}
+    .primary_btn a{padding:16px 40px!important}
+    .padding_tb55{padding-top:35px;padding-bottom:35px}
+    #build-website-today .build-websitetoday .fontsize_36{font-size:22px}
+    #subbanner-page{height:250px;position:relative;background-size:100%!important}
+    #subbanner-page:before{content:"";position:absolute;left:0;top:0;width:100%;height:100%;background-color:rgba(11,122,88,0.9)}
+    #subbanner-page.padding_tb100{padding-top:80px;padding-bottom:85px}
+    .banner-txt{margin-bottom:15px}
+    .padding_tb100{padding-top:70px;padding-bottom:70px}
+    .banner_pricing{margin-bottom:20px}
+    .banner-btn a{padding:14px 30px!important}
+    .fontsize_32{font-size:22px}
+    .plan_box .primary_btn a{padding:16px 40px!important}
+    .fontsize_48{font-size:32px}
+    .lineheight_54{line-height:38px}
+    #build-website-today p{font-size:14px}
+    #homepage-banner p{line-height:26px}
+    .banner_pricing span{font-size:26px}
+    #domain-checkerlayout24 #wdc-style #Search{height:50px;font-size:26px;line-height:30px}
+    #domain-checkerlayout24 h2{margin-top:7px}
+    #plan_box_outer{padding-left:5%!important;padding-right:5%!important}
+    .plan_box .primary_btn a{padding:16px 40px!important}
+    .featured-box p br{display:none!important}
+    div#bridge ul.nav li.dropdown:hover ul.dropdown-menu.second_drop_down{display:block}
+    .padding_tb75{padding-top:60px;padding-bottom:60px}
+    .mycustom_carousel .carousel-indicators{width:15%}
+    .featured-box p{line-height:22px}
+    #shared-planbox{padding-left:0;padding-right:0}
+    #shared-planbox .plan_box .plan_listitem ul li{font-size:14px}
+    #shared-planbox .plan_box .wpb_wrapper{padding-top:30px;padding-bottom:30px}
+    #shared-planbox .plan_box:nth-child(2) .wpb_wrapper .wpb_single_image:first-child{margin-top:-53px!important;margin-bottom:20px!important}
+    #shared-planbox.shared-planbox .plan_box:nth-child(2) .wpb_wrapper .wpb_single_image:first-child{margin-top:0!important;margin-bottom:30px!important}
+    #shared-planbox.shared-planbox .plan_box .wpb_wrapper{margin-bottom:40px}
+    #shared-planbox.shared-planbox .plan_box .wpb_wrapper .wpb_wrapper{margin-bottom:0}
+    #shared-planbox.shared-planbox .plan_box:nth-child(3) .wpb_wrapper .wpb_single_image:first-child{margin-top:-53px!important;margin-bottom:20px!important}
+    #shared-planbox.shared-planbox{padding-bottom:20px!important}
+    .email-address p span{display:block}
+    .horizontal_slider .slider_box{padding:0 30px 20px}
+    .horizontal_slider .slider-container #slider,.horizontal_slider .slider-container1 #slider2{height:15px}
+    .ui-slider-horizontal .ui-slider-handle{top:-9px}
+    .horizontal_slider .price-button a{padding:18px 36px}
+    .horizontal_slider .price_txt .dollar,.horizontal_slider .price_txt #price_val,.horizontal_slider .price_txt #price2_val{font-size:34px;line-height:55px}
+    .horizontal_slider .price_offer .off{font-size:20px;line-height:26px}
+    .horizontal_slider .price_offer span{font-size:16px}
+    .oprating-systemicons .vc_figure{padding-top:25px;padding-bottom:25px;height:100px}
+    #operating-systemouter .fontsize_18{font-size:16px}
+    #operating-systemouter .lineheight_30{line-height:26px}
+    .horizontal_slider .priceslider_content .smalbox1:nth-child(4){margin-right:0!important}
+    .horizontal_slider .priceslider_content .smalbox1{padding-left:15px}
+    .priceslider_content .smalbox1:first-child{padding-left:18px}
+    #domain_tldbox .domain_tldbox .margin_bottom30{margin-bottom:20px}
+    #domain_tldbox .domain_tldbox .wpb_wrapper .domain_tldprice strong span{font-size:36px}
+    #domain_tldbox .domain_tldbox .wpb_wrapper .primary_btn a{padding:14px!important}
+    .domain_tldbox img{width:70%}
+    .domain_tldbox .margin_bottom20{margin-bottom:10px}
+    #domain_tldbox .domain_tldbox .wpb_wrapper{padding-top:30px;padding-bottom:30px}
+    #domain_table .dedicated_table td:first-child{font-weight:500}
+    .contactus-mailingbox{float:left;width:50%;margin-bottom:30px}
+    #contact-featuredbox{padding-bottom:40px}
+    .aboutus_featuredbox .wpb_single_image{min-height:85px}
+    .aboutus_featuredbox .vc_col-sm-3,.aboutus_featuredbox .vc_col-sm-9{width:100%}
+    .aboutus_featuredbox{float:left;width:50%;text-align:center}
+    .aboutus_featuredbox h2{margin-top:20px!important;text-align:center!important}
+    }
+    @media screen and (max-width:782px) {
+    .plan_box .primary_btn a{padding:16px 20px!important}
+    .plan_box .plan_pricing span{font-size:30px}
+    .plan_box h2{min-height:65px}
+    #build-website-today{background-size:100%!important;height:359px;position:relative}
+    #build-website-today:before{content:"";position:absolute;left:0;top:0;position:absolute;width:100%;height:100%;background-color:rgba(11,122,88,0.9)}
+    #build-website-today .build-websitetoday .fontsize_36{font-size:20px}
+    #build-website-today .build-websitetoday .fontsize_22{font-size:18px}
+    .buildwebsite_pricing span{font-size:30px}
+    .build-websitetoday{float:left!important;width:70%!important}
+    #build-website-today{height:335px}
+    }
+    @media screen and (max-width:767px) {
+    .banner-sideimg,#build-website-today .vc_col-sm-6{float:left;width:50%}
+    #homepage-banner .padding_tb130 .vc_column-inner{padding-left:8%!important}
+    #homepage-banner{height:373px}
+    #subbanner-page{height:225px}
+    .domain_tldbox{float:left;width:25%}
+    #shared-planbox .plan_box:nth-child(2) .wpb_wrapper .wpb_single_image:first-child{margin-top:-53px!important;margin-bottom:15px!important}
+    .padding_top100{padding-top:50px}
+    .padding_bottom100{padding-bottom:50px}
+    .about-ushistory{float:left;width:33.33333%}
+    .about-ushistory img{width:70%}
+    .about-ushistory .fontsize_36{font-size:24px}
+    .managed-server{float:left;width:50%}
+    .dedicated_table th,.dedicated_table tbody td{text-align:left}
+    .empty-column{display:none}
+    #hostiko-datacenter,#dedicated-servermanagedbox{padding-left:5%!important;padding-right:5%!important}
+    .hostiko-datacentermap{margin-top:40px;text-align:center!important}
+    .hostiko-datacentermap img{width:80%!important}
+    .dedicated_table th{padding-left:20px!important}
+    .flex_box_outer_sec .flex_box1 ul li{font-size:14px;line-height:40px}
+    .flex_box_outer_sec h2{font-size:14px;line-height:14px}
+    .flex_box_outer_sec .flex_box1 ul{margin-top:58px}
+    #operating-systemsiconsouter{padding-left:5%!important;padding-right:5%!important;padding-bottom:20px!important}
+    .flex_box_outer_sec .reseller_plans_listings li{font-size:14px;line-height:40px}
+    #operating-systemouter{padding-left:5%!important;padding-right:5%!important}
+    .oprating-systemicons-outer{float:left;width:33.33333%;margin-bottom:30px}
+    #operating-systemouter .vc_col-sm-8{float:left;width:70%}
+    #operating-systemouter .vc_col-sm-4{float:left;width:30%}
+    .reseller-planingprice .pricing-box span strong{font-size:16px}
+    .reseller-planingprice .pricing-box{font-size:16px}
+    .flex_box_outer_sec .primary_btn a{padding:12px 6px!important;font-size:14px!important}
+    #shared-planbox{text-align:center}
+    #subbanner-page{padding-left:5%!important;padding-right:2%!important}
+    .build-websitetoday .vc_column-inner{padding-left:11%!important}
+    #shared-planbox .plan_box{float:none;display:inline-block;text-align:center}
+    #shared-planbox .margin_bottom45{margin-bottom:50px}
+    .padding_tb100{padding-top:50px;padding-bottom:50px}
+    .home-searchtitle{float:left;width:30%}
+    .search-field{float:left;width:70%}
+    .plan_box{float:left;width:50%;margin-bottom:30px}
+    .plan_box h2{min-height:auto}
+    .featured-box{float:left;width:50%;margin-bottom:30px}
+    .margin_bottom45{margin-bottom:30px}
+    .featured-box h2{min-height:auto}
+    #call-of-action .call-ofaction-cont{width:70%}
+    .plax_boxsm h2,.plax_boxsm .wpb_single_image,.plax_boxsm .plan_listitem,.plax_boxsm .plan_pricing,.plax_boxsm .plan_btn{border:none!important}
+    .plax_boxsm .wpb_wrapper{padding-left:20px}
+    .plax_boxsm .wpb_wrapper .wpb_wrapper{padding-left:0}
+    #client-testimonial{padding-left:5%!important;padding-right:5%!important}
+    #call-of-action .call-ofaction-cont{padding-left:5%}
+    #footer-detailedbox .vc_col-sm-2{display:none}
+    #footer-detailedbox .vc_col-sm-4{float:left;width:33%}
+    #footer-detailedbox .vc_col-sm-10{float:left;width:100%}
+    .postal-address .wpb_wrapper{border-right:none!important}
+    .email-address span{display:block}
+    #footer-innerbox #footer-menubox .vc_col-sm-4{float:left;width:33%}
+    .footer-innercontent{float:left;width:30%}
+    #footer-menubox{float:left;width:70%}
+    .footer-innercontent p br{display:none}
+    #contact-featuredbox{padding-bottom:20px;padding-left:2%!important;padding-right:2%!important}
+    #aboutus_featuredbox{padding-left:2%!important;padding-right:2%!important}
+    #our_vision{padding-left:2%!important;padding-right:2%!important}
+    #ssl_certicates_features ul li{width:100%}
+    #affiliate_banner .vc_col-sm-6 {width:50%;float:left;}
+    #affiliate_banner .primary_btn a{font-size:14px!important;padding:12px 24px!important;}
+    }
+    @media screen and (max-width:480px) {
+    #homepage-banner{height:330px}
+    .flex_box_outer_sec h2{font-size:12px;padding:15px 0}
+    .fontsize_24{font-size:18px}
+    #subbanner-page{background-size:cover!important;height:200px}
+    #subbanner-page.padding_tb100{padding-top:65px;padding-bottom:65px}
+    #shared-planbox .plan_box .plan_listitem ul li{font-size:13px;line-height:24px}
+    #call-of-action{background-position:left!important}
+    .dedicated_table tbody td{padding:12px 20px!important}
+    .dedicated_table tbody td a{display:inline-block}
+    .managed-server .margin_bottom25{margin-bottom:10px}
+    .domain_tldbox{width:50%;margin-bottom:30px}
+    #domain_tldbox{padding-bottom:20px}
+    #dedicated-servermanagedbox{padding-left:10%!important;padding-right:10%!important}
+    .managed-server{margin-bottom:30px}
+    .managed-server:lat-child{margin-bottom:0}
+    .hostiko-datacentermap img{width:100%!important}
+    .dedicated-boxpricing,.hostiko-maptxt{margin-bottom:15px}
+    .managed-server{width:100%}
+    .margin_bottom25{margin-bottom:20px}
+    .featured-box img{width:70%}
+    .fontsize_20{font-size:16px}
+    .lineheight_26{line-height:24px}
+    .featured-box p{font-size:12px;line-height:20px}
+    #call-of-action .call-ofaction-cont{width:90%}
+    #call-of-action .call-ofaction-cont p{font-size:14px}
+    #call-of-action .call-ofaction-cont .margin_bottom20{margin-bottom:20px}
+    .primary_btn a{padding:14px 30px!important}
+    #call-of-action .margin_bottom10{margin-bottom:15px}
+    .padding_tb130{padding-top:50px;padding-bottom:50px}
+    #build-website-today{background-size:cover!important}
+    #domain-checkerlayout24 .home-searchtitle{width:28%}
+    #domain-checkerlayout24 .home-searchtitle .vc_column-inner{padding-right:0}
+    .margin_bottom20{margin-bottom:10px}
+    .build-websitetoday{float:left!important;width:100%!important}
+    #domain-checkerlayout24 .fontsize_32{font-size:16px}
+    #domain-checkerlayout24 .search-field{width:72%}
+    #domain-checkerlayout24 #wdc-style #Search{font-size:18px}
+    #domain-checkerlayout24{padding-top:10px!important;padding-bottom:10px!important}
+    #wdc-style button#Submit:before{background-size:50%;top:13px;background-repeat:no-repeat}
+    #wdc-style #Search{padding-left:17px!important}
+    .lineheight_36{line-height:24px}
+    .fontsize_36{font-size:24px}
+    .fontsize_18{font-size:14px}
+    .footer-innercontent{width:100%}
+    #shared-planbox.shared-planbox .plan_box .wpb_wrapper{margin-bottom:15px;padding-top:30px!important;padding-bottom:30px!important}
+    .horizontal_slider .priceslider_content .smalbox1{width:50%;margin-bottom:30px}
+    .horizontal_slider .price-greybox{margin-top:30px}
+    .horizontal_slider .price_txt{text-align:center!important;width:50%;padding-right:0;border-right:none}
+    .price_offer,.price_rangetxt{display:none!important}
+    .horizontal_slider .price-greybox{padding:0 5% 30px}
+    .horizontal_slider .priceslider_content .smalbox1:nth-child(2){border-right:none!important}
+    .horizontal_slider .price-button{width:50%;text-align:center;border-left:none;padding-left:0}
+    .horizontal_slider .price-button a{padding:15px 30px}
+    .horizontal_slider .slider-container:before{height:115px}
+    .horizontal_slider .priceslider_content .smalbox1:first-child{padding-left:15px}
+    .horizontal_slider .price-greybox{margin-top:40px}
+    #operating-systemouter .vc_col-sm-4{display:none}
+    #operating-systemouter .vc_col-sm-8{width:100%}
+    #operating-systemouter .wpb_content_element{margin-bottom:30px}
+    #operating-systemouter .wpb_content_element p{font-size:14px;line-height:24px}
+    .oprating-systemicons .vc_single_image-wrapper img{max-width:60%!important}
+    .horizontal_slider .slider-container{padding:40px 0 0}
+    .ui-slider-horizontal .ui-slider-handle{top:-8px}
+    .horizontal_slider .priceslider_content .smalbox1 img{width:90%!important}
+    .horizontal_slider .priceslider_content .smalbox1 figure{margin-right:5px}
+    #domain_tldbox .domain_tldbox .wpb_wrapper .primary_btn a{padding:14px 30px!important}
+    .submit_btn{padding:16px 30px!important}
+    .text_area{height:150px}
+    .aboutus_featuredbox{width:100%;margin-bottom:30px}
+    .about-ushistory p br{display:none}
+    #aboutus_featuredbox{margin-bottom:0}
+    #our_vision,#why_hosus{padding-bottom:20px}
+    .flex_box_outer_sec .primary_btn a{font-size:12px!important;padding:12px 2px!important}
+    .reseller-planingprice .pricing-box{font-size:10px}
+    .flex_box_outer_sec .reseller_plans_listings li{font-size:12px}
+    }
+    @media screen and (max-width:425px) {
+    #homepage-banner{height:355px}
+    .fontsize_48{font-size:28px}
+    #domain-checkerlayout24 .fontsize_32{font-size:14px}
+    #domain-checkerlayout24 #wdc-style #Search{font-size:15px}
+    #subbanner-page{padding-left:5%!important}
+    #subbanner-page .fontsize_20{font-size:14px}
+    #build-website-today{height:345px}
+    .plan_box{width:100%}
+    .plan_box .wpb_single_image,.plan_box .plan_listitem,.plan_box .plan_pricing,.plan_box .plan_btn,.plan_box h2{border:none!important;text-align:center!important;padding-left:0!important}
+    .plax_boxsm .wpb_wrapper{padding-left:0}
+    .plan_box{margin-bottom:50px}
+    .margin_bottom30{margin-bottom:20px}
+    #plan_box_outer{padding-bottom:0!important}
+    #client-testimonial p,.testimonial-inner p{font-size:12px;line-height:20px}
+    .build-websitetoday p{padding-right:5%}
+    .horizontal_slider .priceslider_content .smalbox1 span.numeric1{font-size:16px}
+    .horizontal_slider .price_txt .dollar,.horizontal_slider .price_txt #price_val,.horizontal_slider .price_txt #price2_val{font-size:20px}
+    .horizontal_slider .price_txt .dollar:before{font-size:16px}
+    .horizontal_slider .price_txt{font-size:14px}
+    .horizontal_slider .price-button a{padding:15px 20px;font-size:12px;line-height:12px}
+    .horizontal_slider .slider-container #slider,.horizontal_slider .slider-container1 #slider2{height:10px}
+    .ui-slider .ui-slider-handle{width:30PX;height:15px;background-size:contain}
+    .ui-slider-horizontal .ui-slider-handle{top:-3px}
+    .horizontal_slider .slider-container #slider:before{height:10px;width:92%}
+    .horizontal_slider .slider-container:before{height:95px}
+    .horizontal_slider .price-greybox{padding:0 5% 15px}
+    .horizontal_slider .price_txt .dollar:before{bottom:-16px}
+    .oprating-systemicons .vc_figure{padding-top:20px;padding-bottom:20px}
+    #operating-systemouter .wpb_content_element{margin-bottom:20px}
+    #operating-systemsiconsouter .oprating-systemicons-outer .vc_column-inner{padding-left:10px;padding-right:10px}
+    .contactus-mailingbox{width:100%}
+    }
+    @media screen and (max-width:375px) {
+    #domain-checkerlayout24 .fontsize_32{font-size:12px}
+    .fontsize_36{font-size:20px}
+    .padding_tb75{padding-top:40px;padding-bottom:40px}
+    .testimonial-inner{font-size:12px;line-height:20px}
+    .featured-box{width:100%}
+    .featured-box:last-child{margin-bottom:0}
+    #domain-checkerlayout24 .home-searchtitle{width:30%}
+    #domain-checkerlayout24 .search-field{width:70%}
+    .primary_btn a{padding:12px 20px!important}
+    #wdc-style button#Submit:before{right:-20px}
+    .footer-innercontent{line-height:14px!important}
+    .testimonial-inner{padding:20px;padding:41px 25px}
+    #subbanner-page.padding_tb100{padding-top:55px;padding-bottom:65px}
+    .horizontal_slider .priceslider_content .smalbox1 span.numeric1{font-size:14px}
+    .horizontal_slider .priceslider_content .smalbox1{font-size:12px}
+    .oprating-systemicons .vc_figure{height:105px}
+    .horizontal_slider .priceslider_content .smalbox1{border-right:none}
+    .oprating-systemicons-outer{width:50%;margin-bottom:20px}
+    .horizontal_slider .price-greybox{margin-top:25px}
+    .horizontal_slider .slider_box{padding:0 30px 5px}
+    .domain_tldbox{width:100%}
+    }
