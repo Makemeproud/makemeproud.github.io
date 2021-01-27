@@ -1,0 +1,52 @@
+@-webkit-keyframes rotation{from{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@-moz-keyframes rotation{from{-moz-transform:rotate(0deg);transform:rotate(0deg)}to{-moz-transform:rotate(359deg);transform:rotate(359deg)}}
+@-o-keyframes rotation{from{-o-transform:rotate(0deg);transform:rotate(0deg)}to{-o-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes rotation{from{transform:rotate(0deg)}to{transform:rotate(359deg)}}
+
+#Rotation {
+	left: 0;
+	top: 40%;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+    display: none;
+	z-index: 9999;
+	position: fixed;
+	text-align: center;
+}
+#Rotation:after {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content:'';
+	z-index: -1;
+	position: fixed;
+    background-color: #FFFFFF;
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	-webkit-opacity: 0.7;
+	filter:alpha(opacity=70)
+	-ms-filter:alpha(opacity=70);
+}
+#Rotation:before {
+	content: '';
+	width: 34px;
+	height: 34px;
+	display: block;
+	text-align: center;
+	margin: 0 auto 10px;
+	border-radius :50px;
+	border-left: 8px solid #000;
+	border-left: 8px solid rgba(0,0,0,.1);
+	border-right: 8px solid #000;
+	border-right: 8px solid rgba(0,0,0,.1);
+	border-bottom: 8px solid #000;
+	border-bottom: 8px solid rgba(0,0,0,.1);
+	border-top: 8px solid #e50914;
+	-webkit-animation: rotation .7s infinite linear;
+	-moz-animation: rotation .7s infinite linear;
+	-o-animation: rotation .7s infinite linear;
+	animation: rotation .7s infinite linear
+}
